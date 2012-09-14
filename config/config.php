@@ -7,7 +7,7 @@ return array(
 	'article.path'=> './articles',      // Path to articles
 	'templates.path' => './templates',  // Path to templates
 	'layout.file' => 'layout',    // Site layout file
-	'file.extension' => '.markdown',   // file extension of articles
+	'file.extension' => '.md',   // file extension of articles
 	'disqus.username' => '',   // Your disqus username or false (Global)
 	'markdown'		=> true, //Enable or disable markdown parsing. 
 	'base.directory'  => '',
