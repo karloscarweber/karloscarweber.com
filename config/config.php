@@ -1,8 +1,8 @@
 <?php
 return array(
-	'date.format' => 'd M, Y',   // Date format to be used in article page (not for routes)   
+	'date.format' => 'M d Y',   // Date format to be used in article page (not for routes)   
 	'author.name' => 'Karl Oscar Weber', // Global author name 
-	'site.name'  => 'KOW Stuff',   // Site name (Global)
+	'site.name'  => 'karl oscar weber',   // Site name (Global)
 	'site.title' => 'A bunch of Stuff by KOW',  // Site default title (Global)
 	'article.path'=> './articles',      // Path to articles
 	'templates.path' => './templates',  // Path to templates
@@ -41,7 +41,7 @@ return array(
 			'about' => array(
 					'route' => '/about',
 					'template' => 'about',
-					'layout' => false
+					'layout' => true
 				),
 			'rss' => array(
 					'route' => '/feed/rss(.xml)',
