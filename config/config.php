@@ -1,9 +1,9 @@
 <?php
 return array(
 	'date.format' => 'M d Y',   // Date format to be used in article page (not for routes)   
-	'author.name' => 'Karl Oscar Weber', // Global author name 
+	'author.name' => 'karl oscar weber', // Global author name 
 	'site.name'  => 'karl oscar weber',   // Site name (Global)
-	'site.title' => 'A bunch of Stuff by KOW',  // Site default title (Global)
+	'site.title' => 'kode by karl',  // Site default title (Global)
 	'article.path'=> './articles',      // Path to articles
 	'templates.path' => './templates',  // Path to templates
 	'layout.file' => 'layout',    // Site layout file

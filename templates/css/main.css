@@ -27,7 +27,7 @@ a {
   color: #32b0df;
   text-decoration: none;
 }
-a:hover   { color: #00ccff; }
+a:hover   { color: #00ccff;}
 a:visited { color: #32b0df; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
@@ -82,7 +82,7 @@ td { vertical-align: top; }
    ========================================================================== */
 html { background:url(../img/ui/bg.png) repeat left top; }
 body { }
-.container {display: block; position:relative; width:640px; margin:0 auto; overflow: hidden;padding:0px 10px; }
+.container {display: block; position:relative; width:640px; margin:0 auto; overflow: visible;padding:0px 10px; }
 .wrapper { display:block; position:relative; margin:0 auto; }
 
 
@@ -91,12 +91,12 @@ body { }
 /* the logo */
 div.header h1 a.logo {
   font-family: helvetica;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: normal; 
   color:#333333;}
 
-.header h1 { width:70%; position:relative; padding:0 0 0 72px; overflow:visible;}
-.header h1:before { 
+.header h1 { width:70%; position:relative; padding:0 0 0 72px; overflow:visible;margin:1rem 0rem 10rem;}
+.header h1 a:before { 
     background: none repeat scroll 0 0 #ff2148;
     content: "";
     display: block;
@@ -106,9 +106,20 @@ div.header h1 a.logo {
     position: absolute;
     top: -16px;
     width: 18px;
+    margin:-1880px 0px 0px 0px;
+  -moz-transition:   margin 0.3s ease-in-out 0s;
+  -o-transition:     margin 0.3s ease-in-out 0s; 
+  -webkit-transition:margin 0.3s ease-in-out 0s; 
+  -ms-transition:    margin 0.3s ease-in-out 0s; 
+  transition:        margin 0.3s ease-in-out 0s;
+  height:2000px;
+  z-index: 10000;
+  border-right:18px solid #ffffff;
 }
-
-.header h1:after { 
+.header h1 a:hover:before {
+  margin:0px 0px 0px 0px;
+}
+.header h1 a:after { 
     background: none repeat scroll 0 0 #ff2148;
     content: "";
     display: block;
@@ -119,11 +130,57 @@ div.header h1 a.logo {
     top: -16px;
     width: 18px;
     left:36px;
+    margin:-1880px 0px 0px 0px;
+  -moz-transition:   margin 0.3s ease-in-out 0s;
+  -o-transition:     margin 0.3s ease-in-out 0s; 
+  -webkit-transition:margin 0.3s ease-in-out 0s; 
+  -ms-transition:    margin 0.3s ease-in-out 0s; 
+  transition:        margin 0.3s ease-in-out 0s;
+  height:2000px;
+  z-index: 10000;
+  border-right:18px solid #ffffff;
+}
+.header h1 a:hover:after {
+  margin:0px 0px 0px 0px;
 }
 
+.header .nav { padding:9px; margin:-9px;position:absolute; right:0; top:0;border:2px solid transparent;
 
-.header .nav { position:absolute; right:0; top:0;}
+  -moz-transition:   border 0.3s ease-in-out 0s;
+  -o-transition:     border 0.3s ease-in-out 0s; 
+  -webkit-transition:border 0.3s ease-in-out 0s; 
+  -ms-transition:    border 0.3s ease-in-out 0s; 
+  transition:        border 0.3s ease-in-out 0s;
+}
+.header .nav:hover {}
+.header .nav:before {
+  content:"";
+  display: block;
+  width:34px;
+  height:3px;
+  border-radius:1px;
+  background: #333333;
+}
+.header .nav:before:before {}
+.header .nav:before:before {}
 
+
+.header .nav ul {padding:0px;list-style: none;margin:0px;}
+.header .nav:hover ul {}
+.header .nav ul li {
+  /*opacity: 0;*/
+  opacity:1;
+  -moz-transition:   opacity 0.3s ease-in-out 0s;
+  -o-transition:     opacity 0.3s ease-in-out 0s; 
+  -webkit-transition:opacity 0.3s ease-in-out 0s; 
+  -ms-transition:    opacity 0.3s ease-in-out 0s; 
+  transition:        opacity 0.3s ease-in-out 0s;
+
+}
+.header .nav:hover ul li {
+  opacity: 1;
+}
+.header .nav:hover {border:2px solid #333333;}
 article      {  }
 article.post {  }
 
