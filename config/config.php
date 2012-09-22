@@ -43,6 +43,11 @@ return array(
 					'template' => 'about',
 					'layout' => true
 				),
+			'other' => array(
+					'route' => '/other',
+					'template' => 'other',
+					'layout' => true
+				),			
 			'rss' => array(
 					'route' => '/feed/rss(.xml)',
 					'template' => 'rss',
