@@ -18,6 +18,7 @@
 
     <!-- Le styles -->
     <link href="<?php echo $global['base.directory'];?>/templates/css/main.css" rel="stylesheet">
+    <link href="<?php echo $global['base.directory'];?>/templates/css/grater.css" rel="stylesheet">
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -30,22 +31,23 @@
 
     <div class="container">
       <div class="header">
-        <h1>
-          <a class="logo" href="<?Php echo $global['prefix'];?>/"><?Php echo $global['site.name'];?></a>
-        </h1>
-
         <div class="nav">
           <ul>
             <li><a href="<?Php echo $global['prefix'];?>/archives">Archives</a></li>
             <li><a href="<?Php echo $global['prefix'];?>/about">About</a></li>
+            <li><a href="<?Php echo $global['prefix'];?>/other">Other</a></li>
           </ul>
         </div>
+        <h1>
+          <a class="logo" href="<?Php echo $global['prefix'];?>/"><?Php echo $global['site.name'];?></a>
+        </h1>
+
 
       </div><!-- End .header -->
     </div><!-- End .container -->
 
 
-    <div class="container">
+    <div class="grater-container">
 
       <div class="content">
         <?php echo $content; ?>
