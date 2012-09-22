@@ -125,9 +125,9 @@ div.header h1 a.logo {
   height:2000px;
   border-right:18px solid #ffffff;
 }
-.header h1 a:hover:before {
+/*.header h1 a:hover:before {
   margin:0px 0px 0px 0px;
-}
+}*/
 .header h1 a:after { 
     background: none repeat scroll 0 0 #ff2148;
     content: "";
@@ -148,9 +148,9 @@ div.header h1 a.logo {
   height:2000px;
   border-right:18px solid #ffffff;
 }
-.header h1 a:hover:after {
+/*.header h1 a:hover:after {
   margin:0px 0px 0px 0px;
-}
+}*/
 
 .header .nav { 
   padding:9px; 
