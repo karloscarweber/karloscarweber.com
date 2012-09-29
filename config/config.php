@@ -46,7 +46,7 @@ return array(
 			'other' => array(
 					'route' => '/other',
 					'template' => 'other',
-					'layout' => true
+					'layout' => false
 				),			
 			'rss' => array(
 					'route' => '/feed/rss(.xml)',
