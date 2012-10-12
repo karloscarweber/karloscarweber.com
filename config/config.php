@@ -47,7 +47,12 @@ return array(
 					'route' => '/other',
 					'template' => 'other',
 					'layout' => false
-				),			
+				),
+			'projects' => array(
+					'route' => '/projects',
+					'template' => 'projects',
+					'layout' => false
+				),
 			'rss' => array(
 					'route' => '/feed/rss(.xml)',
 					'template' => 'rss',
