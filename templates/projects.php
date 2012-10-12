@@ -18,23 +18,25 @@
 
             <ul class="projectList">
               <li>
-                <span class="appIcon"><img src="/Icon-Small.png"></span>
+                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
-                  <a href="http://housing.redolive.net">Housing</a>
+                  <a href="http://housing.redolive.net">Self Help Homes</a>
                 </span>
                 <a href="#" class="dueDate">Nov 1st 2012</a>
               </li>
               <li class="completed">
-                <span class="appIcon"><img src="/Icon-Small.png"></span>
+                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
-                  <a href="http://housing.redolive.net">Housing</a>
+                  <a href="http://eim.redolive.net/">Excersize Is Medicine</a>
                 </span>
                 <a href="#" class="dueDate">Nov 1st 2012</a>
               </li>
+
+
               <li>
-                <span class="appIcon"><img src="/assets/images/projects/Icon-Small.png"></span>
+                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
-                  <a href="http://housing.redolive.net">Housing</a>
+                  <a href="http://housing.redolive.net">Sample</a>
                 </span>
                 <a href="#" class="dueDate">Nov 1st 2012</a>
               </li>
