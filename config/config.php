@@ -48,6 +48,11 @@ return array(
 					'template' => 'other',
 					'layout' => false
 				),
+			'git-guide' => array(
+					'route' => '/git-guide',
+					'template' => 'git-guide',
+					'layout' => false
+				),			
 			'projects' => array(
 					'route' => '/projects',
 					'template' => 'projects',
