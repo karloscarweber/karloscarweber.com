@@ -18,6 +18,13 @@
 
             <ul class="projectList">
               <li>
+                <span class="appIcon"><img src="/assets/images/projects/Bingham-Copper-Icon-Small.png"></span>
+                <span class="title">
+                  <a href="http://new.binghamcopper.org">Bingham Copper</a>
+                </span>
+                <a href="#" class="dueDate">October 19th 2012</a>
+              </li>
+              <li>
                 <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
                   <a href="http://housing.redolive.net">Self Help Homes</a>
