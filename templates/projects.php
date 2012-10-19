@@ -1,6 +1,5 @@
 <?php include("header.php"); ?>
 
-
     <div class="container">
 
       <div class="grater">
@@ -31,12 +30,12 @@
                 </span>
                 <a href="#" class="dueDate">Nov 1st 2012</a>
               </li>
-              <li class="completed">
+              <li>
                 <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
                   <a href="http://eim.redolive.net/">Excersize Is Medicine</a>
                 </span>
-                <a href="#" class="dueDate">Nov 1st 2012</a>
+                <a href="#" class="dueDate">Oct 26th 2012</a>
               </li>
 
 
@@ -47,11 +46,15 @@
                 </span>
                 <a href="#" class="dueDate">Nov 1st 2012</a>
               </li>
-
+              <li class="completed">
+                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
+                <span class="title">
+                  <a href="http://housing.redolive.net">Sample Finished</a>
+                </span>
+                <a href="#" class="dueDate">Nov 1st 2012</a>
+              </li>
 
             </ul>
-
-
 
           </section>
 
@@ -59,10 +62,11 @@
 
           <br>
           <hr>
-          <br>      </div><!-- End .content -->
+          <br>
 
-<?php include("footer.php"); ?>
+      </div><!-- End .content -->
 
+    <?php include("footer.php"); ?>
 
     </div> <!-- End .container -->
   </body>
