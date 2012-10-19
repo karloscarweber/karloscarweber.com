@@ -105,7 +105,7 @@ div.header h1 a.logo {
   font-weight: normal; 
   color:#333333;}
 
-.header h1 { width:70%; position:relative; padding:0 0 0 72px; overflow:visible;margin:1rem 0rem 10rem;}
+.header h1 { width:70%; position:relative; padding:0 0 0 72px; overflow:visible;margin:1rem 0rem 3rem;}
 .header h1 a:before { 
     background: none repeat scroll 0 0 #ff2148;
     content: "";
