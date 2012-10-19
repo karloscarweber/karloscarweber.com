@@ -9,23 +9,16 @@
       <div class="content">
         <article class="post">
           <header>
-            <h1>Other Things:</h1>
+            <h1>Git &amp; Github:</h1>
           </header>
 
           <section class="content">
 
-            <p>This is my very first post with textpress. I must say, It's a very impressive little blog engine. I have aspirations of writing my own blog engine, and I believe that I will. I don't see any harm in learning exactly how textpress works though. Today I spent a good 2 hours looking through the code and learning how this thing works. I hope to spend many more hours doing so.</p>
+            <p> replace bracket text with the requested item inside of it. </p>
 
-            <div class="grater">
-              <div>
-                <ul></ul>
-                
-              </div>
-              <div>
-                <p>Lorem ipsum dolor sit amet jamuf kigld s ifk.</p>
-              </div>
-            </div>
-
+            <h2>Some Git commands</h2>
+            <p><strong>git add [filename]</strong> <br>  
+            This adds a file or set of files to the staging area.</p>
 
 
           </section>

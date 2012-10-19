@@ -53,6 +53,11 @@ return array(
 					'template' => 'git-guide',
 					'layout' => false
 				),			
+			'cocos2d-guide' => array(
+					'route' => '/cocos2d-guide',
+					'template' => 'cocos2d-guide',
+					'layout' => false
+				),			
 			'projects' => array(
 					'route' => '/projects',
 					'template' => 'projects',
