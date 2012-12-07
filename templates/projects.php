@@ -17,7 +17,7 @@
 
             <ul class="projectList">
               <li>
-                <span class="appIcon"><img src="/assets/images/projects/Bingham-Copper-Icon-Small.png"></span>
+                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
                   <a href="http://localhost">Wollam Construction (localhost)</a>
                 </span>
