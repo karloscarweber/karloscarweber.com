@@ -19,26 +19,42 @@
               <li>
                 <span class="appIcon"><img src="/assets/images/projects/Bingham-Copper-Icon-Small.png"></span>
                 <span class="title">
+                  <a href="http://localhost">Wollam Construction (localhost)</a>
+                </span>
+                <a href="https://cheddarapp.com/lists/1K3D" class="dueDate">December 14th 2012</a>
+              </li>
+              <li>
+                <span class="appIcon"><img src="/assets/images/projects/Bingham-Copper-Icon-Small.png"></span>
+                <span class="title">
                   <a href="http://new.binghamcopper.org">Bingham Copper</a>
                 </span>
-                <a href="#" class="dueDate">October 19th 2012</a>
+                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">October 19th 2012</a>
               </li>
               <li>
                 <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
                   <a href="http://housing.redolive.net">Self Help Homes</a>
                 </span>
-                <a href="#" class="dueDate">Nov 1st 2012</a>
+                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">Nov 1st 2012</a>
               </li>
               <li>
                 <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
                   <a href="http://eim.redolive.net/">Excersize Is Medicine</a>
                 </span>
-                <a href="#" class="dueDate">Oct 26th 2012</a>
+                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">Oct 26th 2012</a>
+              </li>
+              <li>
+                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
+                <span class="title">
+                  <a href="http://abl.redolive.net/">ABL Medical</a>
+                </span>
+                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">Oct 31st 2012</a>
               </li>
 
+              <!-- Sample code below -->
 
+              <!--
               <li>
                 <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
                 <span class="title">
@@ -53,7 +69,7 @@
                 </span>
                 <a href="#" class="dueDate">Nov 1st 2012</a>
               </li>
-
+              -->
             </ul>
 
           </section>
