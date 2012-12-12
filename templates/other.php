@@ -14,6 +14,8 @@
 
           <section class="content">
 
+            <p><em>Please note, this page is not ready yet.</em></p>
+
             <p><a href="/git-guide">My guide to Git and Github</a>(a personal reference)</p>
             <p><a href="/cocos2d-guide">Link Bait and Guide to Cocos2d</a></p>
 
