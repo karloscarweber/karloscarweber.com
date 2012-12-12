@@ -1,7 +1,8 @@
 {
   "title":"Git Troubles",
   "date":"22-09-2012",
-  "author":"Karl Oscar Weber"
+  "author":"Karl Oscar Weber",
+  "slug":"git-troubles"
 }
 
 I experienced some rather unfortunate consequences by keeping my git repository in my dropbox. I work at home, on my laptop, and at work on my desktop. Each project is maintained with git in my dropbox. Well I made the unfortunate mistake of turning dropbox off on my laptop, then making commits from my desktop. This made the files out of sync. Everything was duplicated on both computers, and I had to rebase the whole repository. 

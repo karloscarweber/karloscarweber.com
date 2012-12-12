@@ -35,6 +35,7 @@
   <body>
 
     <div class="container">
+      <a href="" class="logoIcon"></a>
       <div class="header">
         <div class="nav">
           <ul>
