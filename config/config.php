@@ -48,6 +48,11 @@ return array(
 					'template' => 'other',
 					'layout' => false
 				),
+			'resume' => array(
+					'route' => '/resume',
+					'template' => 'resume',
+					'layout' => false
+				),
 			'git-guide' => array(
 					'route' => '/git-guide',
 					'template' => 'git-guide',
