@@ -88,11 +88,11 @@ body { background: url(../images/WhiteBackgroundTexture.png) repeat center top; 
 
 @font-face {
     font-family: 'ChunkFiveRegular';
-    src: url('fonts/ChunkFive/Chunkfive-webfont.eot');
-    src: url('fonts/ChunkFive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/ChunkFive/Chunkfive-webfont.woff') format('woff'),
-         url('fonts/ChunkFive/Chunkfive-webfont.ttf') format('truetype'),
-         url('fonts/ChunkFive/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    src: url('http://karloscarweber.com/templates/css/fonts/ChunkFive/Chunkfive-webfont.eot');
+    src: url('http://karloscarweber.com/templates/css/fonts/ChunkFive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://karloscarweber.com/templates/css/fonts/ChunkFive/Chunkfive-webfont.woff') format('woff'),
+         url('http://karloscarweber.com/templates/css/fonts/ChunkFive/Chunkfive-webfont.ttf') format('truetype'),
+         url('http://karloscarweber.com/templates/css/fonts/ChunkFive/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
