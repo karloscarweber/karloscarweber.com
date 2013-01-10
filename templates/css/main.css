@@ -108,7 +108,7 @@ body { background: url(../images/WhiteBackgroundTexture.png) repeat center top; 
 }
 
 /* the logo */
-.logo {  }
+.logo { position: relative; z-index: 1000 }
 .logo img { margin:-19px 0px 0px -32px; }
 
 
@@ -116,7 +116,6 @@ body { background: url(../images/WhiteBackgroundTexture.png) repeat center top; 
 
 @media all and (max-width: 660px){
   .container {width:100%; max-width:640px;padding:0px;}
-
 }
 
 
@@ -125,58 +124,7 @@ div.header h1 a.logo {
   font-size: 2.5rem;
   font-weight: normal; 
   color:#333333;}
-
 .header h1 { width:70%; position:relative; padding:0 0 0 72px; overflow:visible;margin:1rem 0rem 3rem;}
-/*.logoIcon { position:absolute; top:-16px; left:0px; width:54px; height:84px; background: url(../images/logo.png) no-repeat center center; }*/
-/*
-.header h1 a:before { 
-    background: none repeat scroll 0 0 #ff2148;
-    content: "";
-    display: block;
-    height: 120px;
-    left: 0;
-    padding: 0;
-    position: absolute;
-    top: -16px;
-    width: 18px;
-    margin:-1880px 0px 0px 0px;
-  -moz-transition:   margin 0.3s ease-in-out 0s;
-  -o-transition:     margin 0.3s ease-in-out 0s; 
-  -webkit-transition:margin 0.3s ease-in-out 0s; 
-  -ms-transition:    margin 0.3s ease-in-out 0s; 
-  transition:        margin 0.3s ease-in-out 0s;
-  height:2000px;
-  border-right:18px solid #ffffff;
-}
-*/
-/*.header h1 a:hover:before {
-  margin:0px 0px 0px 0px;
-}*/
-/*
-.header h1 a:after { 
-    background: none repeat scroll 0 0 #ff2148;
-    content: "";
-    display: block;
-    height: 120px;
-    left: 0;
-    padding: 0;
-    position: absolute;
-    top: -16px;
-    width: 18px;
-    left:36px;
-    margin:-1880px 0px 0px 0px;
-  -moz-transition:   margin 0.3s ease-in-out 0s;
-  -o-transition:     margin 0.3s ease-in-out 0s; 
-  -webkit-transition:margin 0.3s ease-in-out 0s; 
-  -ms-transition:    margin 0.3s ease-in-out 0s; 
-  transition:        margin 0.3s ease-in-out 0s;
-  height:2000px;
-  border-right:18px solid #ffffff;
-}*/
-/*.header h1 a:hover:after {
-  margin:0px 0px 0px 0px;
-}*/
-
 .header .nav { 
   padding:12px; 
   margin:12px;
@@ -192,73 +140,45 @@ div.header h1 a.logo {
   /*.header .nav {float:right;margin:-9px 9px -31px;}*/
 }
 
-.body-overlay { background:#c8c8c8; display: none;visibility: none;padding: 43px 0px 0px 0px;}
-.body-overlay.show { background:#c8c8c8; display: block; visibility: visible;}
+.body-overlay { background:#c8c8c8; display: none;visibility: none;padding: 123px 0px 80px 0px;}
+.body-overlay.show { background:#c8c8c8; display: block; visibility: visible;position: absolute;z-index:999;width: 100%;}
 .hamburgerClose {cursor:pointer;}
 
 .menu a {display: block; width:90%; max-width: 300px; margin:10px auto; list-style: none; border:2px solid #333333; background:#e5e5e5;text-align: center;font-family: ChunkFiveRegular, Georgia, Serif; padding:0px ; border-radius:40px; margin:15 auto; color:#333333; font-size: 1.5rem; }
 .menu a:hover {color:#00CAED;}
 
 
-/*.header .nav:hover {}
-.header .nav:before {
-  content:"";
-  display: block;
-  width:50px;
-  height:6px;
-  border-radius:6px;
-  background: #333333;
-  position: absolute;
-  right: 10px;
-}
-
-.header .nav:after {
-  content:"";
-  display: block;
-  width:50px;
-  height:6px;
-  border-radius:6px;
-  background: #333333;
-  position: absolute;
-  right: 10px;
-  top:20px;
-}
-.header .nav ul:before {
-    content:"";
-  display: block;
-  width:50px;
-  height:6px;
-  border-radius:6px;
-  background: #333333;
-  position: absolute;
-  right: 10px;
-  top:31px;
-}*/
-
-
-/*.header .nav ul {padding:0px;list-style: none;margin:0px;}
-.header .nav ul li {
-  opacity: 0;
-  opacity:0;
-  -moz-transition:   opacity 0.3s ease-in-out 0s;
-  -o-transition:     opacity 0.3s ease-in-out 0s; 
-  -webkit-transition:opacity 0.3s ease-in-out 0s; 
-  -ms-transition:    opacity 0.3s ease-in-out 0s; 
-  transition:        opacity 0.3s ease-in-out 0s;
-  width: 200px;
-}*/
-
-
-
-
-
-
 /* content typography */
 /* make body copy and blockquotes Georgia, make titles and subtext, sans-serif. */
-
-h1 { font-family: ChunkFiveRegular, Georgia, serif; font-weight:normal; margin:1rem 0rem;}
-h2,h3 { font-family:ChunkFiveRegular, Georgia, serif; font-weight:bold; margin:1rem 0rem;}
+h1 {
+  font-size:5rem;
+  line-height:5.2rem;
+  margin-bottom:1rem;
+  text-align: justify;
+  text-shadow:3px 3px 0px #949494;
+}
+h2 {
+  font-size:3.5rem;
+  line-height:3.5rem;
+  margin:1rem 0rem;
+  text-align: center;
+  text-shadow:3px 3px 0px #949494;
+}
+h3 {
+  font-size:2.14rem;
+  line-height:2.14rem;
+  margin:1rem 0rem;
+  text-align: justify;
+  text-shadow:2px 2px 0px #949494;
+}
+h1, h2, h3 {
+  font-family:ChunkFiveRegular, Georgia, serif;
+  color:#333333;
+  font-weight:normal;
+}
 article section.content p { font-family: Georgia, serif; font-size:1.1rem; font-weight:normal; line-height:2rem; text-align:justify; text-shadow:1px 1px 0px #ffffff; }
+
+
 
 /*article.post*/
 article      { position:relative; }

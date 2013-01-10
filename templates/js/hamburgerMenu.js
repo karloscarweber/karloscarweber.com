@@ -33,7 +33,8 @@ function open_nav()
   if ( !$('.header .menu').hasClass('open') )
   {
     $('.menu').addClass('open');
-    $('.body-overlay').css({'height' : $('body').height() }).addClass('show');
+    $('.body-overlay').css({'height' : $('window').height() }).addClass('show');
+    $('.grater-container').addClass('hidden');
   }
 }
 
@@ -44,6 +45,7 @@ function close_nav()
     console.log("hamburgerClose");
     $('.menu').removeClass('open');
     $('.body-overlay').removeClass('show').css({'height' : 'auto' });
+    $('.grater-container').removeClass('hidden');
   }
 }
 
