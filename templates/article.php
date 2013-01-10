@@ -1,6 +1,7 @@
 <article class="post">
   <header>
-    <h1><?php echo $article['meta']['title']; ?></h1>
+    <p class="date"><?php echo date($global['date.format'],strtotime($article['meta']['date']));  ?></p>
+    <h3><?php echo $article['meta']['title']; ?></h3>
   </header>
 
   <section class="content">
@@ -8,21 +9,15 @@
   </section>
 
   <footer>
-    <p class="date"><?php echo date($global['date.format'],strtotime($article['meta']['date']));  ?></p>
+    <!-- comments by disqus if available -->
+    <section class="comments">
+      <?php if($global['disqus.username']){?>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript" src="http://disqus.com/forums/<?php echo $global['disqus.username']; ?>/embed.js"> </script>
+        <noscript><a href="http://<?php echo $global['disqus.username']; ?>.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+      <?php }?>
+    </section>
   </footer>
-  <br>
-  <hr>
-  <br>
-
-  <!-- comments by disqus if available -->
-  <section class="comments">
-    <?php if($global['disqus.username']){?>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript" src="http://disqus.com/forums/<?php echo $global['disqus.username']; ?>/embed.js"> </script>
-      <noscript><a href="http://<?php echo $global['disqus.username']; ?>.disqus.com/?url=ref">View the discussion thread.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-    <?php }?>
-  </section>
 
 </article>
-

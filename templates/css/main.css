@@ -80,19 +80,40 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: Karl Oscar Weber
    ========================================================================== */
-html { background:url(../img/ui/bg.png) repeat left top; }
-body { }
+html { }
+body { background: url(../images/WhiteBackgroundTexture.png) repeat center top; }
+
 .container {display: block; position:relative; width:640px; margin:0 auto; overflow: visible;padding:0px 10px; }
 .wrapper { display:block; position:relative; margin:0 auto; }
 
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/ChunkFive/Chunkfive-webfont.eot');
+    src: url('fonts/ChunkFive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ChunkFive/Chunkfive-webfont.woff') format('woff'),
+         url('fonts/ChunkFive/Chunkfive-webfont.ttf') format('truetype'),
+         url('fonts/ChunkFive/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
+/* the header */
+.header {
+  display: block;
+  position: relative;
+  height:80px;
+  width:100%;
+  margin:0px;
+  background: #c8c8c8;
+}
 
 /* the logo */
-.header {
+.logo {  }
+.logo img { margin:-19px 0px 0px -32px; }
 
 
-}
+
+
 @media all and (max-width: 660px){
   .container {width:100%; max-width:640px;padding:0px;}
 
@@ -157,25 +178,29 @@ div.header h1 a.logo {
 }*/
 
 .header .nav { 
-  padding:9px; 
-  margin:-9px -9px -31px -9px;
+  padding:12px; 
+  margin:12px;
   position:relative; 
   float:right; 
-  top:0;
-  border:2px solid transparent;
   cursor:pointer;
   z-index: 1000;
-  -moz-transition:   border 0.3s ease-in-out 0s;
-  -o-transition:     border 0.3s ease-in-out 0s; 
-  -webkit-transition:border 0.3s ease-in-out 0s; 
-  -ms-transition:    border 0.3s ease-in-out 0s; 
-  transition:        border 0.3s ease-in-out 0s;
+}
+.header .nav a {
+  display: block;
 }
 @media all and (max-width: 660px){
-  .header .nav {float:right;margin:-9px 9px -31px;}
-
+  /*.header .nav {float:right;margin:-9px 9px -31px;}*/
 }
-.header .nav:hover {}
+
+.body-overlay { background:#c8c8c8; display: none;visibility: none;padding: 43px 0px 0px 0px;}
+.body-overlay.show { background:#c8c8c8; display: block; visibility: visible;}
+.hamburgerClose {cursor:pointer;}
+
+.menu a {display: block; width:90%; max-width: 300px; margin:10px auto; list-style: none; border:2px solid #333333; background:#e5e5e5;text-align: center;font-family: ChunkFive, Georgia, Serif; padding:0px ; border-radius:40px; margin:15 auto; color:#333333; font-size: 1.5rem; }
+.menu a:hover {color:#00CAED;}
+
+
+/*.header .nav:hover {}
 .header .nav:before {
   content:"";
   display: block;
@@ -208,13 +233,12 @@ div.header h1 a.logo {
   position: absolute;
   right: 10px;
   top:31px;
-}
+}*/
 
 
-.header .nav ul {padding:0px;list-style: none;margin:0px;}
-.header .nav:hover ul {}
+/*.header .nav ul {padding:0px;list-style: none;margin:0px;}
 .header .nav ul li {
-  /*opacity: 0;*/
+  opacity: 0;
   opacity:0;
   -moz-transition:   opacity 0.3s ease-in-out 0s;
   -o-transition:     opacity 0.3s ease-in-out 0s; 
@@ -222,32 +246,35 @@ div.header h1 a.logo {
   -ms-transition:    opacity 0.3s ease-in-out 0s; 
   transition:        opacity 0.3s ease-in-out 0s;
   width: 200px;
-}
-.header .nav:hover ul li {
-  opacity: 1;
-}
-.header .nav:hover {border:2px solid #333333;background: #ffffff;}
+}*/
 
 
 
 
-
-
-article      {  }
-article.post {  }
 
 
 /* content typography */
 /* make body copy and blockquotes Georgia, make titles and subtext, sans-serif. */
 
-h1 { font-family: Helvetica, sans-serif; font-weight:normal; margin:1rem 0rem;}
-h2,h3,h4,h5 { font-family:Georgia, serif; font-weight:bold; margin:1rem 0rem;}
-article section.content p { font-family: Georgia, serif; font-size:1.1rem; font-weight:normal; line-height:2rem; text-align:justify; }
-article.post header h1 { font-family: Georgia, serif; text-align: right; font-size: 2rem; }
-article.post header h1 a, article.post header h1 a:hover { color:#333; border:none; }
+h1 { font-family: ChunkFive, Georgia, serif; font-weight:normal; margin:1rem 0rem;}
+h2,h3 { font-family:ChunkFive, Georgia, serif; font-weight:bold; margin:1rem 0rem;}
+article section.content p { font-family: Georgia, serif; font-size:1.1rem; font-weight:normal; line-height:2rem; text-align:justify; text-shadow:1px 1px 0px #ffffff; }
+
+/*article.post*/
+article      { position:relative; }
+article.post { border:2px solid #333333; padding:20px; margin:40px -20px; }
+@media all and (max-width: 360px){
+  article.post { border-right:0px solid #333333; border-left:0px solid #333333; padding:20px 0px; margin:40px 0px; }
+}
+
+article.post header h3 { font-family: ChunkFive, Georgia, serif; text-align: left; font-size: 2rem; }
+article.post header h3 a, article.post header h3 a:hover { color:#333; border:none; }
 article.post section.content h2 { font-size:1.1rem;  }
-p.date { text-align:right; opacity: 0.8; font-size:0.8rem;}
-.content a { color:#f41268;}
+p.date { font-family:Helvetica, Arial, sans-serif ;text-align:right; opacity: 0.8; font-size:0.8rem;position: absolute;display: block; right:20px;}
+.content .more   {text-align: right; margin-top:-43px;}
+.content .more a { color:#00CAED;  font-family: ChunkFive; border:2px solid #333333; border-radius:30px;  box-shadow: 0px 0px 10px 10px #ffffff; padding:5px 20px; background: #ffffff; }
+
+/*.content a { color:#f41268;}*/
 
 
 /* project list */

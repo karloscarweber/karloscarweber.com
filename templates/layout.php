@@ -1,7 +1,5 @@
 <?php include("header.php"); ?>
 
-
-
     <div class="grater-container">
 
       <div class="content">
@@ -10,6 +8,6 @@
 
 <?php include("footer.php"); ?>
 
-    </div> <!-- End .container -->
+    </div> <!-- End .grater-container -->
   </body>
 </html>

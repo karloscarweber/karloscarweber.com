@@ -3,7 +3,7 @@ return array(
 	'date.format' => 'M d Y',   // Date format to be used in article page (not for routes)   
 	'author.name' => 'karl oscar weber', // Global author name 
 	'site.name'  => 'karl oscar weber',   // Site name (Global)
-	'site.title' => 'kode by karl',  // Site default title (Global)
+	'site.title' => 'I love Pixels',  // Site default title (Global)
 	'article.path'=> './articles',      // Path to articles
 	'templates.path' => './templates',  // Path to templates
 	'layout.file' => 'layout',    // Site layout file
@@ -38,11 +38,26 @@ return array(
 										'month'=>'([1-9]|[01][0-2])'
 										)
 				),
-			'about' => array(
-					'route' => '/about',
-					'template' => 'about',
+			'home' => array(
+					'route' => '/home',
+					'template' => 'index',
 					'layout' => true
 				),
+			'about' => array(
+					'route' => '/about',
+					'template' => 'index',
+					'layout' => true
+				),
+			'contact' => array(
+					'route' => '/contact',
+					'template' => 'index',
+					'layout' => true
+				),			
+			'blog' => array(
+					'route' => '/blog',
+					'template' => 'blog',
+					'layout' => true
+				),			
 			'other' => array(
 					'route' => '/other',
 					'template' => 'other',
@@ -53,6 +68,11 @@ return array(
 					'template' => 'resume',
 					'layout' => false
 				),
+			'hireme' => array(
+					'route' => '/hireme',
+					'template' => 'resume',
+					'layout' => false
+				),			
 			'git-guide' => array(
 					'route' => '/git-guide',
 					'template' => 'git-guide',

@@ -34,20 +34,35 @@
 
   <body>
 
-    <div class="container">
-      <a href="" class="logoIcon"></a>
-      <div class="header">
+    <div class="header clearfix">
+      <div class="container">
+
+        <a href="http://karloscarweber.com/resume" class="logo">
+          <img src="/templates/images/logo.svg" width="150px" height="150px">
+        </a>        
+
         <div class="nav">
-          <ul>
-            <li><a href="<?Php echo $global['prefix'];?>/archives">Archives</a></li>
-            <li><a href="<?Php echo $global['prefix'];?>/about">About</a></li>
-            <li><a href="<?Php echo $global['prefix'];?>/other">Other</a></li>
-          </ul>
+          <a class="hamburgerOpen">
+            <img src="/templates/images/hamburgerIcon.svg" width="41px" height="31px">
+          </a>     
         </div>
-        <h1>
+        <!-- <h1>
           <a class="logo" href="<?Php echo $global['prefix'];?>/"><?Php echo $global['site.name'];?></a>
-        </h1>
-
-
-      </div><!-- End .header -->
-    </div><!-- End .container -->
+        </h1> -->
+      </div><!-- End .container -->
+    </div><!-- End .header -->
+    <div class="body-overlay clearfix">
+      <div class="container">
+        <div class="menu">
+          <a href="<?Php echo $global['prefix'];?>/">Home</a>
+          <a href="<?Php echo $global['prefix'];?>/about">About / Contact</a>
+          <a href="<?Php echo $global['prefix'];?>/blog">Blog</a>
+          <a href="<?Php echo $global['prefix'];?>/archives">Archives</a>
+          <a href="<?Php echo $global['prefix'];?>/projects">Projects</a>
+          <a href="<?Php echo $global['prefix'];?>/hireme">Hire Me</a>
+          <a href="<?Php echo $global['prefix'];?>/other">Guides</a>
+          <a href="<?Php echo $global['prefix'];?>/other">Other</a>
+            <a class="hamburgerClose">Close Hamburger</a>
+        </div><!-- End of .menu -->
+      </div><!-- End of .container -->
+    </div><!-- End of .body-overlay-->
