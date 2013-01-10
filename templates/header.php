@@ -37,13 +37,13 @@
     <div class="header clearfix">
       <div class="container">
 
-        <a href="http://karloscarweber.com/resume" class="logo">
-          <img src="/templates/images/logo.svg" width="150px" height="150px">
+        <a href="http://karloscarweber.com/" class="logo">
+          <img src="<?php echo $global['base.directory'];?>/templates/images/logo.svg" width="150px" height="150px">
         </a>        
 
         <div class="nav">
           <a class="hamburgerOpen">
-            <img src="/templates/images/hamburgerIcon.svg" width="41px" height="31px">
+            <img src="<?php echo $global['base.directory'];?>/templates/images/hamburgerIcon.svg" width="41px" height="31px">
           </a>     
         </div>
         <!-- <h1>

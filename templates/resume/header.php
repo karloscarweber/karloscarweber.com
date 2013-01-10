@@ -30,7 +30,7 @@
     <div class="header">
       <div class="container">
 
-        <a href="http://karloscarweber.com/resume" class="logo">
+        <a href="http://karloscarweber.com/" class="logo">
           <img src="/templates/resume/images/logo.svg" width="150px" height="150px">
         </a>        
 

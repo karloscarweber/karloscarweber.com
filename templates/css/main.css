@@ -176,7 +176,18 @@ h1, h2, h3 {
   color:#333333;
   font-weight:normal;
 }
-article section.content p { font-family: Georgia, serif; font-size:1.1rem; font-weight:normal; line-height:2rem; text-align:justify; text-shadow:1px 1px 0px #ffffff; }
+article section.content p { font-family: Georgia, serif; font-size:1rem; font-weight:normal; line-height:1.34rem; text-align:justify; text-shadow:1px 1px 0px #ffffff; }
+
+h4 {
+  font-family:Georgia;
+  font-size:1.22rem;
+  line-height:1.4rem;
+  margin:1rem 0rem;
+  text-align:justify;
+  text-shadow:1px 1px 0px #ffffff;
+  color:#333333;
+  font-weight: normal;
+}
 
 
 

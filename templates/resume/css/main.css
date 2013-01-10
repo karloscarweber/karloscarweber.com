@@ -115,7 +115,7 @@ body { background: url(../images/WhiteBackgroundTexture.png) repeat center top; 
 .logo {  }
 .logo img { margin:-19px 0px 0px -32px; }
 
-
+h1, h2, h3 { font-weight: normal;}
 h1 {
   font-family:ChunkFiveRegular;
   font-size:5rem;

@@ -18,7 +18,7 @@ return array(
 			// Site root
 			'__root__'=> array(
 					'route' => '/',
-					'template'=>'index',
+					'template'=>'about',
 					'layout' => true
 				),
 			'article' => array(
@@ -40,17 +40,17 @@ return array(
 				),
 			'home' => array(
 					'route' => '/home',
-					'template' => 'index',
+					'template' => 'about',
 					'layout' => true
 				),
 			'about' => array(
 					'route' => '/about',
-					'template' => 'index',
+					'template' => 'about',
 					'layout' => true
 				),
 			'contact' => array(
 					'route' => '/contact',
-					'template' => 'index',
+					'template' => 'about',
 					'layout' => true
 				),			
 			'blog' => array(
