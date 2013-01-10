@@ -1,5 +1,5 @@
       <footer>
-        <p>Everything copyright &copy; <a href="http://twitter.com/karloscarweber" target="_blank">@karloscarweber</a> 2012, <a href="mailto:karloscarweber@gmail.com">email</a></p>
+        <p>Everything copyright &copy; <a href="http://twitter.com/karloscarweber" target="_blank">@karloscarweber</a> 2013, <a href="mailto:karloscarweber@gmail.com">email</a></p>
         <br>
       </footer><!-- End Footer -->
 
