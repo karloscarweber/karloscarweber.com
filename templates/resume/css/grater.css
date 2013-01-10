@@ -2,5 +2,5 @@ div.grater-container{width:640px;margin:0 auto}@media all and (max-width: 660px)
 /*grater additions*/
 div.grater-max{width:640px;margin:0 auto}
 @media all and (max-width: 660px){
-  div.grater-max{width:96%}
+  div.grater-max{width:300px;}
 }

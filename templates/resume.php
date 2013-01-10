@@ -47,6 +47,9 @@
           <img id="ldsslide2" src="/templates/resume/images/LDSSlideTwo.jpg"> 
           <img id="ldsslide3" src="/templates/resume/images/LDSSlideThree.jpg"> 
         </div><!-- End of .slider -->
+        <div class="slider-shim">
+          <img src="/templates/resume/images/WindowPlaceholder.png">
+        </div>
       </div><!--End of .grater-max -->
 
       <div class="grater-container">
@@ -82,6 +85,9 @@
           <img id="uwmslide2" src="/templates/resume/images/UWMSlideTwo.jpg"> 
           <img id="uwmslide3" src="/templates/resume/images/UWMSlideThree.jpg"> 
         </div><!-- End of .slider -->
+        <div class="slider-shim">
+          <img src="/templates/resume/images/WindowPlaceholder.png">
+        </div>
       </div><!--End of .grater-max -->
 
       <div class="grater-container">

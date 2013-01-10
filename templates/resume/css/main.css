@@ -118,7 +118,7 @@ body { background: url(../images/WhiteBackgroundTexture.png) repeat center top; 
 
 h1 {
   font-family:ChunkFiveRegular;
-  font-size:5.2rem;
+  font-size:5rem;
   line-height:5.2rem;
   margin-bottom:1rem;
   text-align: justify;
@@ -183,6 +183,7 @@ span.red {color:#e01928;}
 .slider {
   width:640px;
   display: block;
+  position: absolute !important;
 }
 .slider img {
   width:640px;margin:0 auto;   
@@ -190,7 +191,9 @@ span.red {color:#e01928;}
 }
 @media all and (max-width: 660px){
   .slider {width:100%;}
-  .slider img {width:98%;}
+  .slider img {width:100%;}
+  .slider-shim {width:100%;}
+  .slider-shim img {width:100%;}
 }
 .ChunkFive { 
   font-family:ChunkFiveRegular;
@@ -207,7 +210,13 @@ span.red {color:#e01928;}
   margin:0px auto;
 }
 @media all and (max-width: 400px){
-  .iPhone-container {overflow: hidden;}
+  .iPhone-container {
+    overflow: hidden;
+    width:320px;
+    margin-left:-10px;
+  }
+  .iPhone-container img {
+  }
 }
 
 
