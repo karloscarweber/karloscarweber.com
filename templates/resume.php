@@ -184,7 +184,7 @@
       <div class="grater-container">
         <div class="grater">
           <div>
-            <p>You can hire me for contract work if you’re not ready for any long term commitment. My hourly rate is: $33/hr. You  can book me for the whole month (160 hours) for $4000. Don’t hesitate to call, email, twitter DM, or even ‘text’ with questions.</p>
+            <p>You can hire me for contract work if you’re not ready for any long term commitment. My hourly rate is: $33/hr. You  can book me for the whole month (200 hours) for $5000. Don’t hesitate to call, email, twitter DM, or even ‘text’ with questions.</p>
           </div>
           <div>
             <p>What I do for Contrack Work:<br>
