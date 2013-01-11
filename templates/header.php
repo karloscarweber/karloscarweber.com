@@ -54,13 +54,13 @@
     <div class="body-overlay clearfix">
       <div class="container">
         <div class="menu">
-          <a href="<?Php echo $global['prefix'];?>/">Home</a>
+          <!-- <a href="<?Php echo $global['prefix'];?>/">Home</a> -->
           <a href="<?Php echo $global['prefix'];?>/about">About / Contact</a>
           <a href="<?Php echo $global['prefix'];?>/blog">Blog</a>
           <a href="<?Php echo $global['prefix'];?>/archives">Archives</a>
-          <a href="<?Php echo $global['prefix'];?>/projects">Projects</a>
+          <!-- <a href="<?Php echo $global['prefix'];?>/projects">Projects</a> -->
           <a href="<?Php echo $global['prefix'];?>/hireme">Hire Me</a>
-          <a href="<?Php echo $global['prefix'];?>/other">Guides</a>
+          <!-- <a href="<?Php echo $global['prefix'];?>/other">Guides</a> -->
           <a href="<?Php echo $global['prefix'];?>/other">Other</a>
             <a class="hamburgerClose">Close Hamburger</a>
         </div><!-- End of .menu -->
