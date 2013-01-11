@@ -82,6 +82,7 @@ td { vertical-align: top; }
    ========================================================================== */
 html { }
 body { background: url(../images/WhiteBackgroundTexture.png) repeat center top; }
+body.overlayed { background: #c8c8c8; }
 
 .container {display: block; position:relative; width:640px; margin:0 auto; overflow: visible;padding:0px 10px; }
 .wrapper { display:block; position:relative; margin:0 auto; }
