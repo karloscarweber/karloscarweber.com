@@ -178,6 +178,10 @@ h1, h2, h3 {
   color:#222222;
   font-weight:normal;
 }
+h2 a, h2 a:hover,h2 a:visited { 
+  color:#222222;
+}
+
 
 /* The following content is optimized for better readability */
 /* 65 - 80 characters per line for optimal readability*/
@@ -190,6 +194,9 @@ article section.content p {
   line-height:1.rem;
   text-align:justify; 
   text-shadow:1px 1px 0px #ffffff; 
+}
+section.content {
+  padding-bottom:20px;
 }
 
 /* indenting each paragraph followed by another paragraph improves readability */
