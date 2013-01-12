@@ -7,7 +7,7 @@
       <div>
         <header>
           <p class="date"><?php  echo date($global['date.format'],strtotime($article['meta']['date']));  ?></p>
-          <h3><a href="<?php echo $article['url']; ?>"><?php echo $article['meta']['title']; ?></a></h3>
+          <h2><a href="<?php echo $article['url']; ?>"><?php echo $article['meta']['title']; ?></a></h2>
         </header>
 
         <section class="content">

@@ -160,24 +160,48 @@ h1 {
 }
 h2 {
   font-size:3.5rem;
-  line-height:3.5rem;
+/* Headers should have a line height about 110% of their font size. */  
+  line-height:3.85rem;
   margin:1rem 0rem;
-  text-align: center;
+  text-align: left;
   text-shadow:3px 3px 0px #949494;
 }
 h3 {
   font-size:2.14rem;
   line-height:2.14rem;
-  margin:1rem 0rem;
+  margin:2rem 0rem 0rem;
   text-align: justify;
   text-shadow:2px 2px 0px #949494;
 }
 h1, h2, h3 {
   font-family:ChunkFiveRegular, Georgia, serif;
-  color:#333333;
+  color:#222222;
   font-weight:normal;
 }
-article section.content p { font-family: Georgia, serif; font-size:1rem; font-weight:normal; line-height:1.34rem; text-align:justify; text-shadow:1px 1px 0px #ffffff; }
+
+/* The following content is optimized for better readability */
+/* 65 - 80 characters per line for optimal readability*/
+article section.content p { 
+  font-family: Georgia, serif; 
+/* 65 - 80 characters per line for optimal readability*/
+  font-size:1.2rem; 
+  font-weight:normal; 
+/* line height should be set to 150% */
+  line-height:1.rem;
+  text-align:justify; 
+  text-shadow:1px 1px 0px #ffffff; 
+}
+
+/* indenting each paragraph followed by another paragraph improves readability */
+p {
+    margin-bottom: 0;
+}
+
+p + p {
+    text-indent: 2em;
+    margin-top: 0;
+}
+
 
 h4 {
   font-family:Georgia;

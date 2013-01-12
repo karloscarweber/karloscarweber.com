@@ -1,7 +1,7 @@
 <article class="post">
   <header>
     <p class="date"><?php echo date($global['date.format'],strtotime($article['meta']['date']));  ?></p>
-    <h3><?php echo $article['meta']['title']; ?></h3>
+    <h2><?php echo $article['meta']['title']; ?></h2>
   </header>
 
   <section class="content">
