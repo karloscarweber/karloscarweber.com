@@ -11,7 +11,7 @@
 
       <section class="content">
         <p>
-          <?php echo substr(strip_tags($article['content']), 0,530); ?>...
+          <?php echo substr(strip_tags($article['content']), 0,512); ?>...
         </p>
       </section>
 

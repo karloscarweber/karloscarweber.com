@@ -8,7 +8,7 @@
           <h1>I Make<br> Digital<br> Things</h1>
         </div>
         <div>
-          <img class="photo" src="/templates/resume/images/photo.jpg">
+          <img class="photo" src="/templates/resume/images/photo.png">
         </div>  
       </div>
 
