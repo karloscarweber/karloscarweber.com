@@ -6,79 +6,50 @@
       </div>
 
       <div class="content">
-        <article class="post">
-          <header>
-            <h1>Projects</h1>
-          </header>
 
-          <section class="content">
+        <div class="projectBox">
+          <p class="headline"> <span class="coming">Coming Soon</span> </p> 
+          <p class="result"> <span class="coming"> = Store</span> </p>
+        </div><!-- End of .projectBox -->
 
-            <p>This is a test of a new projects page concept. </p>
+        <div class="projectBox">
+          <p class="headline"> <span class="coming">Coming Soon</span> </p> 
+          <p class="result"> <span class="coming"> = Blog</span> </p>
+        </div><!-- End of .projectBox -->
 
-            <ul class="projectList">
-              <li>
-                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
-                <span class="title">
-                  <a href="http://localhost">Wollam Construction (localhost)</a>
-                </span>
-                <a href="https://cheddarapp.com/lists/1K3D" class="dueDate">December 14th 2012</a>
-              </li>
-              <li>
-                <span class="appIcon"><img src="/assets/images/projects/Bingham-Copper-Icon-Small.png"></span>
-                <span class="title">
-                  <a href="http://new.binghamcopper.org">Bingham Copper</a>
-                </span>
-                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">October 19th 2012</a>
-              </li>
-              <li>
-                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
-                <span class="title">
-                  <a href="http://housing.redolive.net">Self Help Homes</a>
-                </span>
-                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">Nov 1st 2012</a>
-              </li>
-              <li>
-                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
-                <span class="title">
-                  <a href="http://eim.redolive.net/">Excersize Is Medicine</a>
-                </span>
-                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">Oct 26th 2012</a>
-              </li>
-              <li>
-                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
-                <span class="title">
-                  <a href="http://abl.redolive.net/">ABL Medical</a>
-                </span>
-                <a href="https://cheddarapp.com/lists/1EJ2" class="dueDate">Oct 31st 2012</a>
-              </li>
+        <div class="projectBox">
+          <p class="headline"> <span class="coming">Coming Soon</span> </p> 
+          <p class="result"> <span class="coming"> = App</span> </p>
+        </div><!-- End of .projectBox -->
 
-              <!-- Sample code below -->
+        <div class="projectBox">
+          <p class="headline"> <span class="coming">Coming Soon</span> </p> 
+          <p class="result"> <span class="coming"> = Store</span> </p>
+        </div><!-- End of .projectBox -->
 
-              <!--
-              <li>
-                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
-                <span class="title">
-                  <a href="http://housing.redolive.net">Sample</a>
-                </span>
-                <a href="#" class="dueDate">Nov 1st 2012</a>
-              </li>
-              <li class="completed">
-                <span class="appIcon"><img src="/assets/images/projects/Sample-Icon-Small.png"></span>
-                <span class="title">
-                  <a href="http://housing.redolive.net">Sample Finished</a>
-                </span>
-                <a href="#" class="dueDate">Nov 1st 2012</a>
-              </li>
-              -->
-            </ul>
+        <div class="projectBox">
+          <p class="headline"> <span class="coming">Coming Soon</span> </p> 
+          <p class="result"> <span class="coming"> = App</span> </p>
+        </div><!-- End of .projectBox -->
 
-          </section>
+        <div class="projectBox">
+          <p class="headline"> <span class="coming">Coming Soon</span> </p> 
+          <p class="result"> <span class="coming"> = Product</span> </p>
+        </div><!-- End of .projectBox -->
 
-        </article>
 
-          <br>
-          <hr>
-          <br>
+
+        <!--<div class="projectBox">
+          <p class="headline"> <span class="ember">Ember.js</span> + <span class="cake">Cake</span><span class="php">PHP</span> + <span class="stripe">Stripe</span> = <span class="result">Store</span> </p>
+
+          <div class="grater">
+            <div>
+              <p>The plan here is to create a fully functioning Store using: Ember.js, CakePHP, and Stripe. All Code will be open sourced to Github. Wish me luck on <a href="https://twitter.com/karloscarweber" target="_blank">twitter</a>, or with an <a href="mailto:me@karloscarweber.com">email</a>.</p>
+            </div>
+            <div></div>
+          </div>
+
+        </div>--><!-- End of .projectBox -->
 
       </div><!-- End .content -->
 

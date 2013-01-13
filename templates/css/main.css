@@ -199,17 +199,6 @@ section.content {
   padding-bottom:20px;
 }
 
-/* indenting each paragraph followed by another paragraph improves readability */
-p {
-    margin-bottom: 0;
-}
-
-p + p {
-    text-indent: 2em;
-    margin-top: 0;
-}
-
-
 h4 {
   font-family:Georgia;
   font-size:1.22rem;
@@ -241,6 +230,23 @@ p.date { font-family:Helvetica, Arial, sans-serif ;text-align:right; opacity: 0.
 
 
 /* project list */
+.hashtag       { color:00CAED; }
+div.projectBox { padding:10px; margin:20px -10px; background: #e6e6e6; border:3px solid #333333;  position: relative;min-height: 40px;}
+
+p.headline     { font-family: ChunkFiveRegular; font-size: 1.875rem; text-align: center; margin:0;width:75%;position: absolute;left: 10px;top: 10px;}
+p.result       { font-family: ChunkFiveRegular; font-size: 1rem; text-align: left; margin:0;width:25%;position: absolute;right: 10px;top: 10px;}
+/* Project Headlines */
+.result {color:#27ab1d;}
+.ember  {color:#ed573e;}
+.cake   {color:#e6d273;}
+.php    {color:#c82334;}
+.ruby   {color:#27ab1d;}
+.rails  {color:#27ab1d;}
+.stripe {color:#000000;}
+.iOS    {color:#27ab1d;}
+.coming {color:#cccccc;font-size: 2rem;}
+
+
 .projectList                 { list-style: outside none; }
 .projectList li              { padding: 10px 0px; border-bottom:1px solid #333333; }
 .projectList li.completed    { background:#e3e3e3; }
