@@ -5,7 +5,7 @@
   "slug":"documentation-matters"
 }
 
-Good documentation absolutely matters. It's the difference between coded being useful or an obstacle. The whole point of documentation is to teach the why and how of something. If the documentation doesn't allow quick _and_ thorough understanding of your code, then the documentation has failed.
+Good documentation absolutely matters. It's the difference between code being useful or an obstacle. The whole point of documentation is to teach the why and how of something. If the documentation doesn't allow quick _and_ thorough understanding of your code, then the documentation has failed.
 
 ## Documentation must be approachable for newcomers.
 
