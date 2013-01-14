@@ -19,6 +19,7 @@
     <!-- Le styles -->
     <link href="<?php echo $global['base.directory'];?>/templates/css/main.css" rel="stylesheet">
     <link href="<?php echo $global['base.directory'];?>/templates/css/grater.css" rel="stylesheet">
+    <link href="<?php echo $global['base.directory'];?>/templates/css/solarized-dark.css" rel="stylesheet">
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="/favicon.ico">

@@ -82,6 +82,16 @@ return array(
 					'route' => '/cocos2d-guide',
 					'template' => 'cocos2d-guide',
 					'layout' => false
+				),
+			'postgresql-guide' => array(
+					'route' => '/postgresql-guide',
+					'template' => 'postgresql-guide',
+					'layout' => false
+				),
+			'cakephp-guide' => array(
+					'route' => '/cakephp-guide',
+					'template' => 'cakephp-guide',
+					'layout' => false
 				),			
 			'projects' => array(
 					'route' => '/projects',

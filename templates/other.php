@@ -12,21 +12,17 @@
           </header>
 
           <section class="content">
-            <p><em>Please note, this page is not ready yet.</em></p>
-            <p><a href="/git-guide">My guide to Git and Github</a>(a personal reference)</p>
-            <p><a href="/cocos2d-guide">Link Bait and Guide to Cocos2d</a></p>
+            <p><em>My personal reference Guides</em></p>
+            <p><a href="/git-guide">Git and Github</a> <br>
+               <a href="/cocos2d-guide">Cocos2d</a> <em>(not ready yet) </em><br>
+               <a href="/postgresql-guide">PostgreSQL</a> <br>
+               <a href="/cakephp-guide">CakePHP</a></p>
 
             <p><em> iOS Links </em></p>
-            <ul>
-              <li><a href="http://http://nscookbook.com">NSCookBook</a></li>
-            </ul>
-
-            <br>
+              <p><a href="http://http://nscookbook.com">NSCookBook</a></p>
 
             <p><em> Ruby Links </em></p>
-            <ul>
-              <li><a href="http://railscasts.com">Rails Casts</a></li>
-            </ul>
+              <p><a href="http://railscasts.com">Rails Casts</a></p>
 
           </section>
         </article>

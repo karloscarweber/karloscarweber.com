@@ -247,13 +247,18 @@ p.result       { font-family: ChunkFiveRegular; font-size: 1rem; text-align: lef
 .coming {color:#cccccc;font-size: 2rem;}
 
 
-.projectList                 { list-style: outside none; }
-.projectList li              { padding: 10px 0px; border-bottom:1px solid #333333; }
-.projectList li.completed    { background:#e3e3e3; }
-.projectList li span.appIcon {  }
-.projectList li span.title   {  }
-.projectList li a.dueDate    { float:right; }
 
+
+/*Guides*/
+.sidebar {width:125px; background: #f2f2f2; padding:10px ;}
+  .sidebar h4 { font-family:ChunkFiveRegular; font-size: 1.1rem; text-align: center; margin:0.5rem; }
+  .sidebar p.heading { font-size:1rem; margin-bottom:0;}
+  .sidebar p.heading a { color:#433D74; }
+  .sidebar ul      { list-style: none; padding-left:20px; margin-top:0;}
+  .sidebar ul li a { font-size: 0.8rem; }
+  .sidebar ul li   {  }
+.postgre, .postgre h4, .postgre p, .postgre a {color:#433d74;}
+.sidebar a:hover {color:#00ccff; text-decoration: underline; border:none;}
 
 
 
