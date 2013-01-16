@@ -173,27 +173,17 @@
     <div class="bluePaper clearfix">
 
       <div class="grater-container">
-        <div class="grater">
-          <div style="margin-bottom:0px;">
-            <h3>How much do I cost?</h3>
-          </div>
-          <div style="margin-bottom:0px;">&nbsp;</div>
-        </div><!-- End of .grater -->
+      	<h3>How much do I cost?</h3>
       </div><!--End of .grater-max -->
 
       <div class="grater-container">
         <div class="grater">
           <div>
-          	<p> I understand that hiring a brand new full time employee is risky, so I am available to hire <em>on contract</em> with the intent to hire for $25. Or you can just Hire Me for $48k a year. that's $4k a month. Trust me, I'm worth it. </p>
+          	<p> I understand that hiring a brand new full time employee is risky, so I am available to hire <em>on contract</em> with the intent to hire for $25. Or you can just Hire Me for $48k a year. that's $4k a month. At that price, I'm a bargain. </p>
           </div>
           <div>
-            <p>What I do for Contract Work:<br>
-            -&nbsp; Web Design and Development<br>
-            -&nbsp; PSD to HTML conversion<br>
-            -&nbsp; Wordpress Themes<br>
-            -&nbsp; Web Application development<br>
-            -&nbsp; E-commerce <br>
-            -&nbsp; Anything Responsive</p>
+	          <h2>$ 25 / hr</h2>
+	          <h2>$ 48k / yr</h2>
           </div>
         </div><!-- End of .grater -->
       </div><!-- End of .grater-container -->
