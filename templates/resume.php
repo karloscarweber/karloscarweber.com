@@ -175,7 +175,7 @@
       <div class="grater-container">
         <div class="grater">
           <div style="margin-bottom:0px;">
-            <h3>Contract Work?</h3>
+            <h3>How much do I cost?</h3>
           </div>
           <div style="margin-bottom:0px;">&nbsp;</div>
         </div><!-- End of .grater -->
@@ -184,10 +184,10 @@
       <div class="grater-container">
         <div class="grater">
           <div>
-            <p>You can hire me for contract work if you’re not ready for any long term commitment. My hourly rate is: $33/hr. You  can book me for the whole month (200 hours) for $5000. Don’t hesitate to call, email, twitter DM, or even ‘text’ with questions.</p>
+          	<p> I understand that hiring a brand new full time employee is risky, so I am available to hire <em>on contract</em> with the intent to hire for $25. Or you can just Hire Me for $48k a year. that's $4k a month. Trust me, I'm worth it. </p>
           </div>
           <div>
-            <p>What I do for Contrack Work:<br>
+            <p>What I do for Contract Work:<br>
             -&nbsp; Web Design and Development<br>
             -&nbsp; PSD to HTML conversion<br>
             -&nbsp; Wordpress Themes<br>
@@ -197,14 +197,9 @@
           </div>
         </div><!-- End of .grater -->
       </div><!-- End of .grater-container -->
-
-
     </div><!-- End of .bluePaper -->
 
-
-
 <?php include("resume/footer.php"); ?>
-
 
     </div> <!-- End .container -->
   </body>
