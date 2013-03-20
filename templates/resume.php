@@ -179,7 +179,7 @@
       <div class="grater-container">
         <div class="grater">
           <div>
-          	<p> I understand that hiring a brand new full time employee is risky, so I am available to hire <em>on contract</em> with the intent to hire for $125/hr. Or you can just Hire Me for $96k a year. that's $8k a month. At that price, I'm a bargain. </p>
+          	<p> I understand that hiring a brand new full time employee is risky, so I am available to hire <em>on contract</em> with the intent to hire for $30/hr<!-- $125/hr -->. Or you can just Hire Me for $60k<!-- $96k --> a year. that's <!--$8k-->$5k a month. At that price, I'm a bargain. </p>
           </div>
           <div>
 <!-- 	          <h2>$ 125 / hr</h2>
