@@ -182,8 +182,10 @@
           	<p> I understand that hiring a brand new full time employee is risky, so I am available to hire <em>on contract</em> with the intent to hire for $125/hr. Or you can just Hire Me for $96k a year. that's $8k a month. At that price, I'm a bargain. </p>
           </div>
           <div>
-	          <h2>$ 125 / hr</h2>
-	          <h2>$ 96k / yr</h2>
+<!-- 	          <h2>$ 125 / hr</h2>
+	          <h2>$ 96k / yr</h2> -->
+            <h2>$ 30 / hr</h2>
+            <h2>$ 60k / yr</h2>            
           </div>
         </div><!-- End of .grater -->
       </div><!-- End of .grater-container -->
