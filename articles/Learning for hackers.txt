@@ -1,0 +1,13 @@
+{
+  "title":"Learning for hackers",
+  "date":"22-09-2012",
+  "author":"Karl Oscar Weber",
+  "slug":"git-troubles"
+}
+
+Most web developers, or front end engineers, or whatever in the field of the web, learned to do what they do on their own. They are self taught. Whether it be through a book, or a blog post, or thousand of stack overflow threads, these programmers didn't have a formal teacher. I feel like I've had dozens of teachers through all the blog posts and tutorials that I've found. That's the way we share information on the web. So it makes me feel good to finally contribute back to the community.
+
+Until recently I've felt as though I had little to contribute to the web Dev/Design community. But I've recently begun assembling little pieces of useful code and answers to annoying problems onto my website. At the least it will give me something to blog about. But with time I hope to have comprehensive guides. You can view the list of guides at the  (http://karloscarweber.com/other)[Other] page. I'm going to put the whole website through a redesign, which should make the guides look much better. Please email me with any feedback.
+
+Sincerely,
+Karl Oscar Weber

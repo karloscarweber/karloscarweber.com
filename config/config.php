@@ -93,6 +93,11 @@ return array(
 					'template' => 'cakephp-guide',
 					'layout' => false
 				),			
+			'ruby-rails-guide' => array(
+					'route' => '/ruby-rails-guide',
+					'template' => 'ruby-rails-guide',
+					'layout' => false
+				),			
 			'projects' => array(
 					'route' => '/projects',
 					'template' => 'projects',
