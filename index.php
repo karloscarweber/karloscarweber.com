@@ -1,7 +1,9 @@
 <?php
 
 
+$user     = $_POST['user'];
+$password = $_POST['password'];
 
-echo "response";
+echo "username: $user, password: $password.";
 
 die;
