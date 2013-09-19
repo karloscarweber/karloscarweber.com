@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
+	<link rel="stylesheet" href="{{ theme_url }}/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="{{ theme_url }}/grater.css" type="text/css" />
+	<link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
+</head>
+<body>
+	<div class="grater-container">
+		<a class="logo" href="{{ base_url }}">{{ site_title }}</a>
+	</div>
+	<div class="grater-container">
+		{% if meta.layout == "archive" %}
+			
+				<ul>
+			{% for page in pages %}
+				{% if page.date %} <!-- Note we check for Date field (posts) here -->
+				<li>
+					<a href="{{ page.url }}"><span class="date">{{ page.date_formatted }}</span>&nbsp;{{ page.title }}</a>
+				</li>
+				{% endif %}
+			{% endfor %}
+				</ul>
+
+		{% else %}
+			{% if is_front_page %} 
+
+			{{ content }}
+
+			<!-- Front page lists all blog posts -->
+			<h2>Latest Posts</h2>
+					<ul>
+				{% for page in pages|slice(0, 3) %}
+					{% if page.date %} <!-- Note we check for Date field (posts) here -->
+					<li>
+						<a href="{{ page.url }}"><span class="date">{{ page.date_formatted }}</span>&nbsp;{{ page.title }}</a>
+					</li>
+					{% endif %}
+				{% endfor %}
+					<li><a href="/archive">Archive</a></li>
+					</ul>
+
+			{% else %} <!-- Single page shows individual blog post -->
+
+				<div class="post">
+					<p class="meta">{{ meta.date_formatted }}</p>
+					{% if meta.title %}<h1>{{ meta.title }}</h1>{% endif %}
+					{{ content }}
+				</div>
+
+			{% endif %}
+		{% endif %}
+	</div>
+	<div class="grater-container">
+		<p><small>Everything is copyright &copy; Karl Oscar Weber. Follow me on twitter: <a href="https://www.twitter.com/karloscarweber">@karloscarweber</a></small></p>
+	</div>
+    
+</body>
+</html>

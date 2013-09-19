@@ -1,31 +1,16 @@
 <?php
-/**
-* Require necessary files
-*/
-require 'Slim/Slim.php';
-require 'lib/Textpress.php';
-require 'lib/View.php';
 
-/**
-* Require config file
-* @return Array config values
-*/
-$config = require 'config/config.php';
+define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
+define('CONTENT_DIR', ROOT_DIR .'content/');
+define('CONTENT_EXT', '.md');
+define('LIB_DIR', ROOT_DIR .'lib/');
+define('PLUGINS_DIR', ROOT_DIR .'plugins/');
+define('THEMES_DIR', ROOT_DIR .'themes/');
+define('CACHE_DIR', LIB_DIR .'cache/');
 
-/**
-* Create an instance of Slim with custom view
-* and set the configurations from config file
-*/
+require(ROOT_DIR .'vendor/autoload.php');
+require(LIB_DIR .'markdown.php');
+require(LIB_DIR .'pico.php');
+$pico = new Pico();
 
-$app = new Slim(array('view' => 'View','mode' => 'production'));
-$app->config($config);
-
-/**
-* Create an object of Textpress and pass the object of Slim to it.
-*/
-$textpress = new Textpress($app);
-
-/**
-* Finally run Textpress
-*/
-$textpress->run();
+?>
