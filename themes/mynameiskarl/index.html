@@ -37,7 +37,8 @@
 			{{ content }}
 
 			<!-- Front page lists all blog posts -->
-			<h2>Latest Posts</h2>
+			<p>Sometimes I like to write Blog Posts</p>
+			<h2>Latest Articles</h2>
 					<ul>
 				{% for page in pages|slice(0, 3) %}
 					{% if page.date %} <!-- Note we check for Date field (posts) here -->
