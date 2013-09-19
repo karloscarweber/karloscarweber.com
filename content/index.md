@@ -10,3 +10,4 @@ Here is a list of some things that I'm working on:
 * [Prologue](http://prologue.co) - My Bootstrapped Scrappy Startup Thing.
 * [Compendium](https://github.com/karloscarweber/Compendium) - A Bunch of simple Blog Layouts.
 
+Check out my [Open Source Report Card](http://osrc.dfm.io/karloscarweber).
