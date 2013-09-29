@@ -32,7 +32,7 @@ div#header {
   margin-bottom:1.75rem;
   margin-top:0rem;
   font-family:helvetica, sans-serif;
-  color:#555555;
+  color:#000000;
 }
 
 h1,h2,h3,h4,h5 {
@@ -141,7 +141,7 @@ input[type=submit].dangerous, .button.dangerous { background-color:#F5615E;color
 input[type=submit].dangerous:active, .button.dangerous:active { background-color:#ffffff;color:#F5615E;border-color:#F5615E;}
 input[type=submit].warning, .button.warning { background-color:#FDC228;color:#ffffff;}
 input[type=submit].warning:active, .button.warning:active { background-color:#ffffff;color:#FDC228;border-color:#FDC228;}
-input[type=submit].disabled, .button.disabled { background-color:#d3d3d3; color:#ffffff;}
+input[type=submit].disabled, .button.disabled { background-color:#A2A2A2; color:#ffffff;}
 input[type=submit].disabled:hover, .button.disabled:hover { border-color: #d9d9d9;}
 input[type=submit].acknowledge, .button.acknowledge { background-color:#729FD9;color:#ffffff;}
 input[type=submit].acknowledge:active, .button.acknowledge:active { background-color:#ffffff;color:#729FD9;border-color:#729FD9;}
