@@ -14,7 +14,7 @@ div#header {
 
 /* Typography */
 .blueBack {
-  background: #6296c7;
+  background: #68a2d9;
   font-family:Open Sans;
   color:#ffffff;
 }
@@ -51,7 +51,7 @@ h5{font-style:italic;font-weight:300;}
   .titleLead { margin: 2rem 0px;}
   .titleLead span {margin: 2rem 0px; font-size: 4.5rem;}
 }
-p {font-size:1.25rem;line-height:1.5rem; font-weight:300; text-align: justify;margin-bottom:1.5rem;margin-top:0rem;}
+p {font-size:1.25rem;line-height:1.75rem; font-weight:300; text-align: justify;margin-bottom:1.5rem;margin-top:0rem;}
 blockquote { font-size: 2rem;line-height:2.5rem; margin:0rem 0rem 1.5rem 2rem;text-align: justify; }
 
 
@@ -215,12 +215,12 @@ ul.nav li {
 
 /* New Design */
 .elastic-container {
-
+  padding:150px 0px;
+  margin-bottom:2rem;
 }
 .elastic-container.blue {
-  background:#6296c7;
+  background:#68a2d9;
   color:#ffffff!important;
-  padding:100px 0px;
 }
 
 .elastic-container.blue p.lead,.elastic-container.blue p {
@@ -228,7 +228,48 @@ ul.nav li {
   text-align: center;
   line-height: 4rem;
   font-size: 3rem;
+  font-family: Lato;
 }
+@media all and (max-width: 660px){
+  .elastic-container.blue p.lead,.elastic-container.blue p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color:#68a2d9;
+  font-weight: 600;
+  font-style: italic;
+  font-family: georgia;
+}
+.button.prologueBlue {
+  background:#68a2d9;
+  color:#ffffff;
+}
+strong {
+  font-weight: bold;
+  font-size:inherit;
+}
+
+a {
+  color:#68a2d9;
+}
+.copyright {
+  padding:50px 0px;
+}
+.copyright * {
+  text-align: center;
+  font-size: inherit;
+  opacity: 0.85;
+}
+
+/* modify Grater */
+div.grater, div.grater div {
+  margin-bottom: 0rem !important;
+}
+
 
 
 
