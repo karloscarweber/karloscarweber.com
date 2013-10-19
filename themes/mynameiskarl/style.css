@@ -3,6 +3,9 @@ html, button, input, select, textarea { font-family: Open Sans, sans-serif; colo
 /* ==|== primary styles =====================================================
    Author: Karl Oscar Weber
    ========================================================================== */
+body {
+  background: #f0f6fc;
+}
 .container {display:block; position:relative; margin:0 auto; width:640px; }
 .wrapper   {display:block; position:relative; margin:0 auto; }
 
