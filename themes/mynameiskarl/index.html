@@ -11,13 +11,15 @@
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />	
-	<!-- No OpenSans for you today. -->
-	<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />-->
 <!-- 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
 
 	<link rel="stylesheet" href="{{ theme_url }}/normalize.css" type="text/css" />
 	<link rel="stylesheet" href="{{ theme_url }}/grater.css" type="text/css" />
 	<link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
+
+	<script type="text/javascript" src="{{ theme_url }}/js/jquery2.js"></script>
+	<script type="text/javascript" src="{{ theme_url }}/js/main.js"></script>
+
 </head>
 <body>
 
@@ -39,13 +41,17 @@
 
 			</div>
 			<div>
-				<h2>Prologue</h2>
-				<img src="{{ theme_url }}/img/emptyAppIcon.svg">
-				<p class="lead"><strong>Prologue</strong> Is the best way to get the features and apps that you want. Users are given votes each month to vote for the features I build next. <strong>Prologue Plus</strong> grants extra Votes each month and unlocks Premium Features.</p>
+ 				<h2>Grasa</h2>
+				<!--<img style="width:300px;border-radius:75px" src="{{ theme_url }}/img/appiconv2.svg"> -->
+				<span id="box">
+					<img id="background" src="{{ theme_url }}/img/bg.png">
+					<span id="icon"></span>
+				</span>
+				<p class="lead"><strong>Grasa</strong> is a Cheddar Client.</p>
 
-				<!--<p style="text-align:right;"> <a target="_blank" href="http://prologue.co" class="button prologueBlue">See Prologue</a> </p>-->
-				<p style="text-align:right;"> <a target="_blank" class="button disabled">Launching This October</a> </p>
+				<p style="text-align:right;"><a class="button disabled">Coming Soon</a></p>
 			</div>
+
 		</div>
 		<div class="grater">
 			<div>
@@ -56,11 +62,12 @@
 				<p style="text-align:right;"> <a target="_blank" href="https://github.com/karloscarweber/Compendium" class="button">View on Github</a> </p>
 			</div>
 			<div>
-				<h2>Grasa</h2>
-				<img style="width:300px;border-radius:75px" src="{{ theme_url }}/img/appiconv2.svg">
-				<p class="lead"><strong>Grasa</strong> is a Cheddar Client.</p>
+				<h2>Prologue</h2>
+				<img src="{{ theme_url }}/img/emptyAppIcon.svg">
+				<p class="lead"><strong>Prologue</strong> Is the best way to get the features and apps that you want. Users are given votes each month to vote for the features I build next. <strong>Prologue Plus</strong> grants extra Votes each month and unlocks Premium Features.</p>
 
-				<p style="text-align:right;"><a class="button disabled">Coming Soon</a></p>
+				<!--<p style="text-align:right;"> <a target="_blank" href="http://prologue.co" class="button prologueBlue">See Prologue</a> </p>-->
+				<p style="text-align:right;"> <a target="_blank" class="button disabled">Launching This October</a> </p>
 			</div>
 		</div>
 	</div>
@@ -80,6 +87,7 @@
 	<div class="grater-container copyright">
 		<p><small>Everything &copy; Karl Oscar Weber. Email me <a href="mailto:me@karloscarweber.com">me@karloscarweber.com</a></small></p>
 	</div>
+
 <script type="text/javascript">
   var _gauges = _gauges || [];
   (function() {

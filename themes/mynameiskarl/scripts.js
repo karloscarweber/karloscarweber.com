@@ -46,3 +46,34 @@ $(document).ready(function(){
 	})
 
 });
+
+/* Grasa App Animation */
+function startSubtleScroll() {
+
+	var fps = 12.0;
+	var pixels = 1;
+	var direction = "up";
+	var offset = 300.0;
+
+	setInterval(function() {
+
+		$("#background").css({"top": "-"+offset})
+		if(direction == "up"){
+			offset -= pixels;
+			if(offset <= 0){
+				direction = "down";
+			}
+		} else {
+			offset += pixels;
+			if(offset >= 300){
+				direction = "up";
+			}
+		}
+
+		console.log(direction + " " + offset );
+	}, 1000.0 / fps);
+}
+
+$(document).ready(function(){
+	startSubtleScroll();
+});
