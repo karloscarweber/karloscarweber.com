@@ -173,7 +173,7 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
   margin:0 auto;
   width: 300px;
   height: 210px;
-  background:url(/themes/mynameiskarl/img/Check.png) center center no-repeat;
+  background:url(/themes/mynameiskarl/img/Check.svg) center center no-repeat;
   margin-top:50px;
 }
 
