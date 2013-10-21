@@ -160,21 +160,22 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
   border-radius: 75px;
   margin:0px auto 2rem;
   box-shadow: 0px 6px 13px -1px #000000;
+  z-index: 10;
 }
 #background {
   display: block;
   position: absolute;
   top:-350px;
   left:0px;
+  z-index: 100;
 }
 #icon {
   display: block;
   position: relative;
   margin:0 auto;
   width: 300px;
-  height: 210px;
-  background:url(/themes/mynameiskarl/img/Check.svg) center center no-repeat;
-  margin-top:50px;
+  margin-top:0px;
+  z-index: 1000;
 }
 
 /* Specific stuff to the theme. */
