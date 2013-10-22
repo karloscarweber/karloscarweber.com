@@ -33,7 +33,7 @@ My wife and I took the petty cash lying around the house and Drove to San Franci
 	</div>
 
 	<div class="imgframe">
-	<img class="contentimg" src="/themes/mynameiskarl/img/sf-square.jpg"/>
+	<img class="contentimg" src="/themes/mynameiskarl/img/SF-square.jpg"/>
 	<p>An Awesome Picture of San Francisco.</p>
 	</div>
 </div>
@@ -50,7 +50,7 @@ Monse has **NEVER** been to Disneyland, can you believe that? I can hardly belie
 
 Give Us Money! yes! I've written a little book about Failure that I've titled: <span class="red">How To Fail</span>, You can <a href="#">read a sample chapter right here</a>! Buy the Book for 4.99 &amp; You will learn to fail less.
 
-<img class="bookimg" src="/themes/mynameiskarl/img/cover2.png" />
+<img class="bookimg" src="/themes/mynameiskarl/img/Cover2.png" />
 <a style="text-align:center;display:block;" href="https://gum.co/cjKX">Buy Me!</a><script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
 
 
