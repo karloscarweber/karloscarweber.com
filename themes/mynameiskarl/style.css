@@ -341,6 +341,7 @@ div.imgframe p {
   border-top:10px solid #000000;
   border-left:10px solid #000000;
   border-bottom:10px solid #000000;
+  box-sizing:border-box;
 }
 .red {
   color:#ff0000;
