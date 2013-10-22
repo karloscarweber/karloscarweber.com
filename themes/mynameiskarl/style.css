@@ -4,7 +4,7 @@ html, button, input, select, textarea { font-family: Open Sans, sans-serif; colo
    Author: Karl Oscar Weber
    ========================================================================== */
 body {
-  background: #f0f6fc;
+  /*background: #f0f6fc;*/
 }
 .container {display:block; position:relative; margin:0 auto; width:640px; }
 .wrapper   {display:block; position:relative; margin:0 auto; }
@@ -252,7 +252,7 @@ ul.nav li {
   color:#ffffff!important;
 }
 
-.elastic-container.blue p.lead,.elastic-container.blue p {
+.elastic-container.blue p.lead, .elastic-container.blue p {
   color:#fff;
   text-align: center;
   line-height: 4rem;
@@ -293,6 +293,100 @@ a {
   font-size: inherit;
   opacity: 0.85;
 }
+
+ul li {
+  list-style:disc;
+  padding-left:10px;
+  margin:10px 0px;
+
+}
+
+.newlead {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  width:80%;
+  margin:2rem auto;
+}
+div.imgframe {
+  position: relative;
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+}
+img.contentimg {
+  width:100%;
+  border-radius: 5px;
+  box-shadow:2px 0px 7px #555555;
+  margin:0px;
+}
+div.imgframe p {
+  background:rgba(62, 62, 62, 0.5);
+  color:#bbbbbb;
+  width:100%;
+  height: auto;
+  padding:5px;
+  position: absolute;
+  bottom:4px;
+  right:0px;
+  margin:0px;
+  border-radius: 0px 0px 5px 5px;
+  box-sizing:border-box;
+}
+.bookimg {
+  display: block;
+  width:300px;
+  margin:0rem auto 2rem;
+  border-right:10px solid #000000;
+  border-top:10px solid #000000;
+  border-left:10px solid #000000;
+  border-bottom:10px solid #000000;
+}
+.red {
+  color:#ff0000;
+}
+p .red {
+  font-size:1.25rem;
+  font-weight:bold;
+  font-family: georgia, serif;
+}
+.bookRow {
+  width: 100%;
+  padding:5rem 0px;
+  background:url(/themes/mynameiskarl/img/unsplash_523c673a60106_1.jpg) center center no-repeat;
+  box-shadow: 0px -20px 0px 10px #000000;
+}
+
+.bookRow:before, .bookRow:after {
+  display: table;
+  content: "";
+}
+.bookRow:after {
+  clear:both;
+}
+
+swipe stuff
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  margin-bottom: 0px;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0px;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+  margin-bottom: 0px;
+}
+#slider {
+  overflow: hidden;
+}
+
 
 /* modify Grater */
 div.grater, div.grater div {

@@ -24,4 +24,7 @@ function startSubtleScroll() {
 }
 $(document).ready(function(){
 	startSubtleScroll();
+	window.mySwipe = Swipe(document.getElementById('slider'), {auto:6000});
 });
+
+
