@@ -50,7 +50,8 @@ Monse has **NEVER** been to Disneyland, can you believe that? I can hardly belie
 
 Give Us Money! yes! I've written a little book about Failure that I've titled: <span class="red">How To Fail</span>, You can <a href="#">read a sample chapter right here</a>! Buy the Book for 4.99 &amp; You will learn to fail less.
 
-<a href="https://gum.co/cjKX"><img class="bookimg" src="/themes/mynameiskarl/img/cover2.png" /></a> <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+<img class="bookimg" src="/themes/mynameiskarl/img/cover2.png" />
+<a style="text-align:center;display:block;" href="https://gum.co/cjKX">Buy Me!</a><script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
 
 
 <h2 class="red">Reasons to Buy the Book:</h2>
