@@ -17,7 +17,7 @@ div#header {
 
 /* Typography */
 .blueBack {
-  background: #68a2d9;
+  background: #7ebdfc;
   font-family:Open Sans;
   color:#ffffff;
 }
@@ -238,7 +238,12 @@ ul.nav li {
   }
 }
 
-
+hr {
+  border-right:none;
+  border-top:none;
+  border-left:none;
+  border-bottom:3px solid #000000;
+}
 
 
 
@@ -248,7 +253,7 @@ ul.nav li {
   margin-bottom:2rem;
 }
 .elastic-container.blue {
-  background:#68a2d9;
+  background:#7ebdfc;
   color:#ffffff!important;
 }
 
@@ -268,13 +273,13 @@ ul.nav li {
 h2 {
   font-size: 2.5rem;
   text-align: center;
-  color:#68a2d9;
+  color:#7ebdfc;
   font-weight: 600;
   font-style: italic;
   font-family: georgia;
 }
 .button.prologueBlue {
-  background:#68a2d9;
+  background:#7ebdfc;
   color:#ffffff;
 }
 strong {
@@ -283,7 +288,7 @@ strong {
 }
 
 a {
-  color:#68a2d9;
+  color:#7ebdfc;
 }
 .copyright {
   padding:50px 0px;

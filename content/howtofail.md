@@ -75,3 +75,11 @@ Grasa is a Cheddar client with offline support, and sharing. When you're away fr
 But that's not all! NOPE! I often share my lists with my wife to make plans. Sometimes she want's me to remember a really big list of groceries that I almost always forget. Now She can make the list on her phone and share it with me instantly. If She needs to update the list while I'm away, She can add another item and I'll be sent a push notification with the change.
 
 And it's all synced up of course.
+
+Learn More about Grasa Her:
+
+<p class="newlead">What if Nobody Want's to Buy Grasa?</p>
+
+I'll start work on my second book, How To Ghost. A really big Book about how to use HTML, CSS, Javascript, and Node.js to Theme Ghost. My Sister, Dani California, Really wants to be a web developer. I've found that there really isn't a book that pulls in all the parts of modern web development together and teaches it to a complete newcomer or beginner. I've decided that I'm going to write a book just for her. 
+
+Look for this one sometime in the spring. 
