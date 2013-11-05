@@ -19,6 +19,8 @@ So in my teenage years I picked up a little book title: PHP in a Nutshell, I rea
 
 <input name="something" type="text" placeholder="name">
 
+<textarea></textarea>
+
 Fifty Studio is a premier Web Design Studio Specializing in Digital Experiences. I work on their iOS apps and Products. I also build Database heavy custom CMS's and Websites.
 
 <input name="something" type="text" placeholder="address">
