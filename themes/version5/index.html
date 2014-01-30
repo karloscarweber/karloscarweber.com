@@ -14,13 +14,11 @@ What Up Bro!
 	<meta name="robots" content="{{ meta.robots }}">
 {% endif %}
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Quando' rel='stylesheet' type='text/css'>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />	
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+	<link rel="stylesheet" href="{{ theme_url }}/main.css" type="text/css" />
 
-	<link rel="stylesheet" href="{{ theme_url }}/normalize.css" type="text/css" />
-	<link rel="stylesheet" href="{{ theme_url }}/grater.css" type="text/css" />
-	<link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
 
 	<script type="text/javascript" src="{{ theme_url }}/js/jquery2.js"></script>
 	<script type="text/javascript" src="{{ theme_url }}/js/swipe.js"></script>
@@ -31,18 +29,10 @@ What Up Bro!
 
 
 {% if is_front_page %} 
-
-	<div class="elastic-container blue">
-			<p class="lead">I Write Apps &amp; Books.</p>
-	</div>
-
-	<div class="grater-container main">
-	{{ content }}
-	</div>
-
+<div id="container">{{ content }}</div>
 {% else %} <!-- Single page shows individual blog post -->
 
-	<div class="grater-container main">
+	<div class="elastic-container page">
 	{{ content }}
 	</div>
 
