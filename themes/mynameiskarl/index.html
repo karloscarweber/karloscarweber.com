@@ -35,64 +35,22 @@ What Up Bro!
 	<div class="elastic-container blue">
 			<p class="lead">I Write Apps &amp; Books.</p>
 	</div>
-	<div class="grater-container">
-		<div class="grater">
-			<div>
-				<h2>How To Fail</h2>
-				<img src="{{ theme_url }}/img/howToFail.svg">
-				<p class="lead"><strong>How to Fail</strong> Is the best way to learn what NOT to do. Written with a bit of wit and a lot of Truth; How To Fail is a collection of stories and advice that will help you to identify bad and evil habits in your own life, and some steps to mitigate them. <!-- Read a sample chapter: <strong><a href="#">Fail to Plan</a></strong>. --></p>
 
-				<p style="text-align:right;"> <a target="_blank" class="button disabled">Launching This October</a> </p>
-				<!--<p style="text-align:right;"> <a target="_blank" href="#" class="button prologueBlue">Buy How To Fail</a> </p>-->
-
-			</div>
-			<div>
- 				<h2>Grasa</h2>
-				<!--<img style="width:300px;border-radius:75px" src="{{ theme_url }}/img/appiconv2.svg"> -->
-				<span id="box">
-					<img id="background" src="{{ theme_url }}/img/bg.svg">
-					<img id="icon" src="{{ theme_url }}/img/check.svg">
-				</span>
-				<p class="lead"><strong>Grasa</strong> is a Cheddar Client.</p>
-
-				<p style="text-align:right;"><a class="button disabled">Coming Soon</a></p>
-			</div>
-
-		</div>
-<!-- 		<div class="grater">
-			<div>
-				<h2>Compendium</h2>
-				<img src="{{ theme_url }}/img/emptyAppIcon.svg">
-				<p class="lead"><strong>Compendium</strong> is a collection of Ghost Themes, a personal experiment in Typography and Color.</p>
-
-				<p style="text-align:right;"> <a target="_blank" href="https://github.com/karloscarweber/Compendium" class="button">View on Github</a> </p>
-			</div>
-			<div>
-				<h2>Prologue</h2>
-				<img src="{{ theme_url }}/img/emptyAppIcon.svg">
-				<p class="lead"><strong>Prologue</strong> Is the best way to get the features and apps that you want. Users are given votes each month to vote for the features I build next. <strong>Prologue Plus</strong> grants extra Votes each month and unlocks Premium Features.</p>
-
-				<p style="text-align:right;"> <a target="_blank" href="http://prologue.co" class="button prologueBlue">See Prologue</a> </p>
-				<p style="text-align:right;"> <a target="_blank" class="button disabled">Launching This October</a> </p>
-			</div>
-		</div> -->
-	</div>
-
-	<div class="grater-container">
+	<div class="grater-container main">
 	{{ content }}
 	</div>
 
 {% else %} <!-- Single page shows individual blog post -->
 
-	<div class="grater-container">
+	<div class="grater-container main">
 	{{ content }}
 	</div>
 
 {% endif %}
 
-	<div class="grater-container copyright">
-		<p><small>Everything &copy; Karl Oscar Weber. Email me <a href="mailto:me@karloscarweber.com">me@karloscarweber.com</a></small></p>
-	</div>
+<!-- 	<div class="grater-container copyright">
+		<p><small> Email me <a href="mailto:me@karloscarweber.com">me@karloscarweber.com</a></small></p>
+	</div> -->
 
 <script type="text/javascript">
   var _gauges = _gauges || [];
