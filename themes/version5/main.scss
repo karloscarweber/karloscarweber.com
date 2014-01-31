@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5 {
 }
 h1{font-size:3rem}
 h2{font-size:2rem}
-h3, h4, h5 {font-size:1.5rem}
+h3, h4, h5 {font-size:1.625rem}
 h4{font-style:italic;}
 h5{font-style:italic;font-weight:300;}
 .titleLead {text-align: center;letter-spacing: -5px;margin: 4rem 0px;text-shadow:1px 1px 1px #333333;}
@@ -172,6 +172,63 @@ input[type=submit].disabled, .button.disabled { background-color:#A2A2A2; color:
 input[type=submit].disabled:hover, .button.disabled:hover { border-color: #d9d9d9;}
 input[type=submit].acknowledge, .button.acknowledge { background-color:#729FD9;color:#ffffff;}
 input[type=submit].acknowledge:active, .button.acknowledge:active { background-color:#ffffff;color:#729FD9;border-color:#729FD9;}
+
+
+
+/* Specific Site Styles */
+
+.row {
+	@extend .row;
+	@extend .clearfix;
+	padding:3rem 0rem;
+}
+
+
+.row-title {
+
+	@extend .row;
+	background:#46a3f1;
+
+ 	.elastic-container {
+
+		.full {
+
+			h1 {
+				text-align: center;
+				margin: 7rem 0rem;
+				font-size: 5rem;
+				color:#ffffff;
+			}
+			@media all and (max-width:860px){
+				h1 {
+					text-align: center;
+					margin: 5rem 0rem;
+					font-size: 3rem;
+				}
+			}
+			@media all and (max-width:660px){
+				h1 {
+					text-align: center;
+					margin: 3rem 0rem;
+					font-size: 3rem;
+				}
+			}
+
+		}
+	}
+}
+
+
+.row-white {
+	@extend .row;
+	background:#f2f2f2;
+}
+
+.row-city {
+	@extend .row;
+	background:#17222e;
+}
+
 
 
 

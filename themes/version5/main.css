@@ -428,7 +428,7 @@ h2 {
   font-size: 2rem; }
 
 h3, h4, h5 {
-  font-size: 1.5rem; }
+  font-size: 1.625rem; }
 
 h4 {
   font-style: italic; }
@@ -605,15 +605,43 @@ input[type=submit].acknowledge:active, .button.acknowledge:active {
   color: #729FD9;
   border-color: #729FD9; }
 
+/* Specific Site Styles */
+.row, .row-title, .row-white, .row-city {
+  padding: 3rem 0rem; }
+
+.row-title {
+  background: #46a3f1; }
+  .row-title .elastic-container .full h1 {
+    text-align: center;
+    margin: 7rem 0rem;
+    font-size: 5rem;
+    color: #ffffff; }
+  @media all and (max-width: 860px) {
+    .row-title .elastic-container .full h1 {
+      text-align: center;
+      margin: 5rem 0rem;
+      font-size: 3rem; } }
+  @media all and (max-width: 660px) {
+    .row-title .elastic-container .full h1 {
+      text-align: center;
+      margin: 3rem 0rem;
+      font-size: 3rem; } }
+
+.row-white {
+  background: #f2f2f2; }
+
+.row-city {
+  background: #17222e; }
+
 /* clearfix and floats */
-.clearfix:before, .clearfix:after {
+.clearfix:before, .row:before, .row-title:before, .row-white:before, .row-city:before, .clearfix:after, .row:after, .row-title:after, .row-white:after, .row-city:after {
   content: "";
   display: table; }
 
-.clearfix:after {
+.clearfix:after, .row:after, .row-title:after, .row-white:after, .row-city:after {
   clear: both; }
 
-.clearfix {
+.clearfix, .row, .row-title, .row-white, .row-city {
   *zoom: 1; }
 
 .left {
