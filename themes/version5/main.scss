@@ -221,9 +221,8 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
 	}
 }
 
-
-
-
+/* This article saved my life: http://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion */
+/* Also this one: http://www.lighterra.com/articles/macosxtextaabug/ */
 .row-title {
 
 	@extend .row;
@@ -296,7 +295,6 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
   background-size: cover;
 }
 
-
 .elastic-three.colored {
 
     div:nth-child(1) {
@@ -329,11 +327,6 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
       }
     }
   }
-
-
-
-
-
 
 
 

@@ -638,6 +638,8 @@ input[type=submit].acknowledge:active, .button.acknowledge:active {
     border-radius: 2px;
     background: #000000; }
 
+/* This article saved my life: http://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion */
+/* Also this one: http://www.lighterra.com/articles/macosxtextaabug/ */
 .row-title {
   background-color: #46a3f1;
   background: url(img/iphone.jpg) no-repeat center bottom;
