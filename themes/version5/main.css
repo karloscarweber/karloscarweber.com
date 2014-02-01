@@ -483,7 +483,7 @@ a {
 a:hover {
   text-decoration: none; }
 
-.anti-alias-fix, .button:focus, .button:hover, .button:active, .row-title, .row-dark, .row-city, .row-epilogue {
+.anti-alias-fix, .button:focus, .button:hover, .button:active, .row-title, .row-white, .row-dark, .row-city, .row-epilogue {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased; }
@@ -639,7 +639,9 @@ input[type=submit].acknowledge:active, .button.acknowledge:active {
     background: #000000; }
 
 .row-title {
-  background: #46a3f1; }
+  background-color: #46a3f1;
+  background: url(img/iphone.jpg) no-repeat center bottom;
+  background-size: cover; }
   .row-title .elastic-container .full h1 {
     text-align: center;
     margin: 7rem 0rem;
@@ -667,10 +669,14 @@ input[type=submit].acknowledge:active, .button.acknowledge:active {
   background: #f2f2f2; }
 
 .row-city {
-  background: #17222e; }
+  background-color: #17222e;
+  background: url(img/city.jpg) no-repeat center center;
+  background-size: cover; }
 
 .row-epilogue {
-  background: #313433; }
+  background-color: #313433;
+  background: url(img/Shore.jpg);
+  background-size: cover; }
 
 .elastic-three.colored div:nth-child(1) h3, .elastic-three.colored div:nth-child(1) a {
   color: #ff326c;

@@ -228,7 +228,9 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
 
 	@extend .row;
   @extend .anti-alias-fix;
-	background:#46a3f1;
+	background-color:#46a3f1;
+  background:url(img/iphone.jpg) no-repeat center bottom;
+  background-size: cover;
 
  	.elastic-container {
 
@@ -261,6 +263,7 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
 
 .row-white {
   @extend .row;
+  @extend .anti-alias-fix;
   background:#f2f2f2;
 }
 
@@ -280,14 +283,17 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
 .row-city {
 	@extend .row;
   @extend .row-dark;
-	background:#17222e;
-
+	background-color:#17222e;
+  background:url(img/city.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .row-epilogue {
   @extend .row;
   @extend .row-dark;
-  background:#313433;
+  background-color:#313433;
+  background:url(img/Shore.jpg);
+  background-size: cover;
 }
 
 

@@ -93,10 +93,22 @@ Description: Karl Oscar Weber is a Web and iOS Engineer living in Salt Lake City
 
 <div class="row-epilogue">
 	<div class="elastic-container">
-		<div class="single">
-			<h3>My name is Karl</h3>
-			<p>I live and work in the Salt Lake Valley building Database Driven Websites Using CakePHP and MySQL. I also make iOS apps, and a few products.</p>
-			<a href="" class="button">Get in Touch</a>
+		<div class="full">
+			<h2>Epilogue</h2>
+		</div>
+		<div class="elastic-three colored">
+		<div>
+			<h3>Employment</h3>
+			<p>Currently I’m happily employed at Fifty Studio. An awesome Web Agency here in Utah. Notwithstanding <a href="#">my Resume is available online</a>.</p>
+		</div>
+		<div>
+			<h3>Social Media and stuff</h3>
+			<p>You can find me on Messaging on <a href="#">Twitter</a>, Forking on <a href="#">Github</a>, or Writing on my Blog at <a href="#">MyNameIsKarl.com</a>.</p>
+		</div>
+		<div>
+			<h3>Contact</h3>
+			<p>Sometimes I take on small projects. If you’d like to discuss one, or just say Hi, my email: <a href="mailto:me@karloscarweber.com">me@karloscarweber.com</a>.</p>
+		</div>
 		</div>
 	</div>
 </div>
