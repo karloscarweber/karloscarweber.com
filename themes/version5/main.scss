@@ -11,7 +11,8 @@ html, button, input, select, textarea { font-family: Open Sans, sans-serif; colo
 body {
   background: #f2f2f2;
 }
-.container {display:block; position:relative; margin:0 auto; width:640px; }
+#container {display:block; position:relative; margin:0 auto;  }
+#container > div:last-child {margin-bottom:0px; padding-bottom:10rem;}
 .wrapper   {display:block; position:relative; margin:0 auto; }
 
 /* Header */
@@ -49,7 +50,7 @@ h5{font-style:italic;font-weight:300;}
   .titleLead { margin: 2rem 0px;}
   .titleLead span {margin: 2rem 0px; font-size: 4.5rem;}
 }
-p { /* 0.0625rem = 1px */
+p, ul, li, a { /* 0.0625rem = 1px */
   font-size:1.125rem;
   line-height:1.75rem;
   font-weight:400;
@@ -61,9 +62,29 @@ p { /* 0.0625rem = 1px */
 blockquote { font-size: 2rem;line-height:2.5rem; margin:0rem 0rem 1.5rem 2rem;text-align: justify; }
 
 
+
 /*links*/
 a {text-decoration: underline;}
 a:hover {text-decoration: none;}
+.anti-alias-fix {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+/* lists */
+
+ul {
+	padding:0px;
+	margin-bottom:1.5rem;
+	list-style-type:none;
+
+	li {
+		margin-bottom:0.25rem;
+
+	}
+}
+
 
 
 /* Code Styling */
@@ -132,18 +153,19 @@ p code {
   cursor: pointer;
 }
 .button:focus, .button:hover {
+  @extend .anti-alias-fix;
   background: #007eff;
   color:#efefef;
   font-weight: 700; 
 }
 
 .button:active {
+  @extend .anti-alias-fix;
   background: #3398ff;
   line-height: 1.6;
   -moz-box-shadow:    inset 0 3px 5px #006fde;
   -webkit-box-shadow: inset 0 3px 5px #006fde;
   box-shadow:         inset 0 3px 5px #006fde;
-
 }
 
 
@@ -181,12 +203,31 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
 	@extend .row;
 	@extend .clearfix;
 	padding:3rem 0rem;
+
+	h2 {
+		font-size:3.125rem;
+		color:#000000;
+		text-align: center;
+		line-height:6rem;
+		margin-bottom:3rem;
+	}
+	h2:before, h2:after {
+		content:"";
+		display: block;
+		width: 100%;
+		height: 5px;
+		border-radius: 2px;
+		background: #000000;
+	}
 }
+
+
 
 
 .row-title {
 
 	@extend .row;
+  @extend .anti-alias-fix;
 	background:#46a3f1;
 
  	.elastic-container {
@@ -218,16 +259,72 @@ input[type=submit].acknowledge:active, .button.acknowledge:active { background-c
 	}
 }
 
-
 .row-white {
-	@extend .row;
-	background:#f2f2f2;
+  @extend .row;
+  background:#f2f2f2;
+}
+
+.row-dark {
+  @extend .anti-alias-fix;
+  p, ul, li {
+    color:#bfbfbf;
+  }
+  h2 {
+    color:#f2f2f2;
+  }
+  h2:before, h2:after {
+    background: #f2f2f2;
+  }
 }
 
 .row-city {
 	@extend .row;
+  @extend .row-dark;
 	background:#17222e;
+
 }
+
+.row-epilogue {
+  @extend .row;
+  @extend .row-dark;
+  background:#313433;
+}
+
+
+.elastic-three.colored {
+
+    div:nth-child(1) {
+      h3, a {
+        color:#ff326c;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
+    div:nth-child(2) {
+      h3, a {
+        color:#007eff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
+    div:nth-child(3) {
+      h3, a {
+        color:#00d523;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+
 
 
 
