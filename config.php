@@ -9,7 +9,7 @@ $config['theme'] = 'default'; 			// Set the theme (defaults to "default")
 $config['date_format'] = 'jS M Y';		// Set the PHP date format
 $config['twig_config'] = array(			// Twig settings
 	'cache' => false,					// To enable Twig caching change this to CACHE_DIR
-	'autoescape' => false,				// Autoescape Twig vars
+	'autoescape' => false,				// Autoescape Twig vars`
 	'debug' => false					// Enable Twig debug
 );
 $config['pages_order_by'] = 'alpha';	// Order pages by "alpha" or "date"
@@ -22,11 +22,9 @@ $config['custom_setting'] = 'Hello'; 	// Can be accessed by {{ config.custom_set
 
 */
 
-
 $config['theme'] = 'version5';// Set the theme (defaults to "default")
 $config['site_title'] = 'Karl Oscar Weber - Programmer';
 $config['pages_order_by'] = 'date';	// Order pages by "alpha" or "date"
 $config['pages_order'] = 'desc';// Order pages "asc" or "desc"
-
 
 ?>

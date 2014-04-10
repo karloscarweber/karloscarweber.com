@@ -35,8 +35,6 @@ folder and that becomes a page. For example this file is called `index.md` and i
 </div>
 
 
-
-
 If a file cannot be found, the file `content/404.md` will be shown.
 
 ### Text File Markup

@@ -1,58 +1,89 @@
 /*
 Title: Resume: Karl Oscar Weber
 Description: The resume of Karl Oscar Weber 
+Template: resume
 */
-<div class="resume">
+
+<div class="rgrid-container resume-page-for-reals">
+	<div class="rgrid">
+		<section class="rgrid-3">
+			<h1>Karl Oscar Weber: Programmer</h1>
+		</section>
+	</div>
+
+	<div class="rgrid underline-border">
+		<section class="rgrid-1"><h2>About Me</h2></section>
+		<section class="rgrid-2">
+			<p>My name is Karl and I Love to Program. In fact I’ve been programming for over 10 years. Its awesome. I’m a Web and iOS Programmer, I like to ride my bike, watch Movies, &amp; play with my kids. </p>
+		</section>
+	</div>
+
+	<div class="rgrid underline-border">
+		<section class="rgrid-1">
+			<h2>Contact</h2>
+		</section>
+		<section class="rgrid-2 ">I respond to email: me@karloscarweer.com and phone calls: (801) 651-1435 <br>I also user <a href="https://twitter.com/karloscarweber" target="_blank">twitter</a> &amp; <a href="https://github.com/karloscarweber" target="_blank">github</a> as:karloscarweber.</section>
+	</div>
+
+	<div class="rgrid underline-border">
+		<section class="rgrid-1">
+			<h2>Skills</h2>
+			<p>What I can do.</p>
+		</section>
+		<section class="rgrid-1">
+			<ul>
+				<li>iOS Design &amp; Development</li>
+				<li>CakePHP Development</li>
+				<li>MySQL database Normalization</li>
+			</ul>
+		</section>
+		<section class="rgrid-1">
+			<ul>
+				<li>Super Front-End Skills (HTML/CSS)</li>
+				<li>Node using Express</li>
+				<li>Ember.js Experience</li>
+			</ul>
+		</section>
+	</div>
 
 
-<h1 style="text-align:center;font-size:3rem;color:#7ebdfc;font-weight:bold;font-family:Georgia;margin:5rem 0rem;">Karl Oscar Weber</h1>
+	<div class="rgrid">
 
-<h2 style="text-align:left;border-bottom:3px solid #7ebdfc;padding-left:5px;">About Me</h2>
+		<section class="rgrid-1">
+			<h2>Experience</h2>
+		</section>
+		<section class="rgrid-3 empty"></section>
 
-I love Programming. Since I was a little kid Computers have fascinated me. I've wanted to Design &amp; Develop computer systems. Tron was cool, Star Trek was cool, and Computers were cool.
+		<section class="rgrid-1">
+			<h3>Fifty Studio,<br> April 2013 - Present</h3>
+			<h3 class="subtext">iOS &amp; Web Engineer</h3>
+		</section>
+		<section class="rgrid-2">
+			<p>I have to say that working for Fifty Studio has been one of the most rewarding experiences of my career. I am a Web &amp; iOS Engineer. We do less apps than websites though and I’ve found myself focusing on the web.</p>
+		</section>
 
-So in my teenage years I picked up a little book title: PHP in a Nutshell, I read this book like a novel and with my first credit card (Ironically called the college card), I bought the parts and built my first computer. Ever since then I have learned on my own everything from Database normalization to Responsive web development with media queries.
+	</div>
+	<div class="rgrid">
 
-<h2 style="text-align:left;border-bottom:3px solid #7ebdfc;padding-left:5px;">Experience</h2>
+		<section class="rgrid-1">
+			<h3>Freelancer,<br> Jan 2013 - April 2013</h3>
+			<h3 class="subtext">Front-End Engineer</h3>
+		</section>
+		<section class="rgrid-2">
+			<p>During this time I really made Javascript a strength of mine. I worked on a large scale quizzing application for Capital One that required accessibility changes for screen readers. It was challenging but rewarding.</p>
+		</section>
+	</div>
 
-<p style="font-weight:400;font-size:1rem;line-height:1.25rem;"><strong>Company:</strong> Fifty Studio<br><strong>Role:</strong> Software Engineer<br>April 2013 - Present</p>
+	<div class="rgrid underline-border">
 
-Fifty Studio is a premier Web Design Studio Specializing in Digital Experiences. I work on their iOS apps and Products. I also build Database heavy custom CMS's and Websites.
+		<section class="rgrid-1">
+			<h3>Red Olive,<br> Jan 2011 - Jan 2013</h3>
+			<h3 class="subtext">Web Developer</h3>
+		</section>
+		<section class="rgrid-2">
+			<p>My first job in the Software industry. I was primarily tasked with slicing and dicing PSD’s into HTML &amp; CSS. </p>
+		</section>
 
-<ul>
-	<li>iOS Development</li>
-	<li>CakePHP based customer CMS's and Websites</li>
-	<li>Database driven websites and services</li>
-	<li>RESTful API's</li>
-	<li>Javascript heavy</li>
-</ul>
+	</div>
 
-<hr>
-
-<p style="font-weight:400;font-size:1rem;line-height:1.25rem;"><strong>Company:</strong> Media Rain<br><strong>Role:</strong> Web Developer<br>January 2013 - April 2013</p>
-
-Media Rain is a pretty large design &amp; development studio with offices in American Fork Utah and New York City. I was contracted to work on an education project for Capital One. It required extensive changes to make certain that 
-
-<ul>
-	<li>HTML / CSS development</li>
-	<li>Advanced Javascript development</li>
-	<li>Accessibility development for screen readers</li>
-</ul>
-
-<hr>
-
-<p style="font-weight:400;font-size:1rem;line-height:1.25rem;"><strong>Company:</strong> Red Olive<br><strong>Role:</strong> Web Developer<br>January 2011 - January 2013</p>
-
-Fifty Studio is a premier Web Design Studio Specializing in Digital Experiences. I work on their iOS apps and Products. I also build Database heavy custom CMS's and Websites.
-
-<ul>
-	<li>HTML / CSS development</li>
-	<li>Jquery</li>
-	<li>PSD Slicing &amp; Dicing</li>
-</ul>
-
-<h2 style="text-align:left;border-bottom:3px solid #7ebdfc;padding-left:5px;">Education</h2>
-
-<p style="font-weight:400;font-size:1rem;line-height:1.25rem;"><strong>School:</strong> Bingham High School<br><strong>Graduated:</strong> Class of 2006</p>
-
-Bingham High School was really fun. In fact super awesome. 
+</div>
