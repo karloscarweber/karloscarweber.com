@@ -22,9 +22,10 @@ $config['custom_setting'] = 'Hello'; 	// Can be accessed by {{ config.custom_set
 
 */
 
-$config['theme'] = 'version5';// Set the theme (defaults to "default")
+$config['theme'] = 'version6';// Set the theme (defaults to "default")
 $config['site_title'] = 'Karl Oscar Weber - Programmer';
 $config['pages_order_by'] = 'date';	// Order pages by "alpha" or "date"
 $config['pages_order'] = 'desc';// Order pages "asc" or "desc"
+$config['foreign_rss_url'] = 'http://blog.kow.fm/rss'; 
 
 ?>

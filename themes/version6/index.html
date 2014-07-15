@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic|Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ theme_url }}/css/main.css" type="text/css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+<header class="topmenu">
+	<a href="#" class="hamburger">
+		<svg width="20px" height="20px" viewBox="0 0 20 20">
+            <path class="xpath" stroke="#4A90E2" stroke-width="2" d="M1,2 L19,19" id="Line-1" sketch:type="MSShapeGroup"></path>
+            <path class="xpath" stroke="#4A90E2" stroke-width="2" d="M19,2 L1,19" id="Line-2" sketch:type="MSShapeGroup"></path>
+            <path class="path" stroke="#4A90E2" stroke-width="2" d="M1,10 L19,10" id="Line-3" sketch:type="MSShapeGroup"></path>
+            <path class="path" stroke="#4A90E2" stroke-width="2" d="M1,17 L19,17" id="Line-4" sketch:type="MSShapeGroup"></path>
+            <path class="path" stroke="#4A90E2" stroke-width="2" d="M1,3 L19,3" id="Line-5" sketch:type="MSShapeGroup"></path>
+		</svg></a>
+    <p> <a class="trackbacklink" href="http://kow.fm">kow.<span>fm</span></a>  <a href="http://blog.kow.fm">Blog</a> <!--<a href="http://kow.fm/episodes">Episodes</a> <a href="http://kow.fm/products">Products</a> --><a href="http://kow.fm/about">About</a> </p>
+</header>
+
+{% if is_front_page %} 
+<!-- <div id="container" class="clearfix"> -->{{ content }}<!-- </div> -->
+{% else %} <!-- Single page shows individual blog post -->
+<div id="container" class="clearfix">{{ content }}</div>
+{% endif %}
+<div class="row-title">
+	<div class="elastic-container">
+
+		<div class="single copyright">
+			
+			<h4 class="subscribe-toggle underline"><a href="./newsletter">Get the Weekly Letter.</a></h4>
+				
+			<script type="text/javascript">
+			$(function(){
+				// $('.subscribe-toggle').on('click', function(){
+				// 	$('.mc-field-group, .indicates-required, #mce-responses, #mc-embedded-subscribe-form .clear').slideToggle();
+				// });
+
+				// $('.mc-field-group, .indicates-required, #mce-responses, #mc-embedded-subscribe-form .clear').toggle();
+
+				$('a.hamburger').on('click', function(){
+					$('header.topmenu').toggleClass('open');
+				});
+
+			});
+			</script>
+			<br />
+			<p>All stuff is &copy; Karl Oscar Weber | <a href="mailto:me@kow.fm" target="_blank">me@kow.fm</a> | <a href="https://twitter.com/karloscarweber" target="_blank">@karloscarweber</a></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

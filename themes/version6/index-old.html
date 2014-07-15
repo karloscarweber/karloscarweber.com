@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+<!--
+What Up Bro!
+-->
+
+	<meta charset="utf-8" />
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="{{ theme_url }}/css/main.css" type="text/css" />
+
+
+	<script type="text/javascript" src="{{ theme_url }}/js/jquery2.js"></script>
+	<script type="text/javascript" src="{{ theme_url }}/js/swipe.js"></script>
+	<script type="text/javascript" src="{{ theme_url }}/js/main.js"></script>
+
+</head>
+<body>
+
+
+{% if is_front_page %} 
+<div id="container">{{ content }}</div>
+{% else %} <!-- Single page shows individual blog post -->
+
+	<div class="elastic-container page">
+	{{ content }}
+	</div>
+
+{% endif %}
+
+<!-- 	<div class="grater-container copyright">
+		<p><small> Email me <a href="mailto:me@karloscarweber.com">me@karloscarweber.com</a></small></p>
+	</div> -->
+</body>
+</html>

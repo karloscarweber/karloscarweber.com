@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ theme_url }}/css/resume.css" type="text/css" />
+
+</head>
+<body>
+
+
+{% if is_front_page %} 
+<div id="container" class="resume clearfix">{{ content }}</div>
+{% else %} <!-- Single page shows individual blog post -->
+<div id="container" class="resume clearfix">{{ content }}</div>
+{% endif %}
+</body>
+</html>
