@@ -17,9 +17,9 @@ Description: Karl Oscar Weber is a Web and iOS Engineer living in Salt Lake City
 
 			<h2>Latest Post</h2>
 
-			<h3><a href="http://blog.kow.fm/oblivicons" style="text-decoration:none;color:#333333;font-size:18px;">Oblivicons</a> <span class="postdate">June 21st 2014</span></h3>
+			<h3><a href="http://blog.kow.fm/interviews-for-the-book/" style="text-decoration:none;color:#333333;font-size:18px;">Interviews For The Book</a> <span class="postdate">July 29th 2014</span></h3>
 			
-			<p><img src="http://blog.kow.fm/content/images/2014/Jun/mark1-3x.png" alt="Oblivicons vol 1"></p><p>I made a few icons inspired by the movie Oblivion. They are free through Gumroad: <a href="https://gum.co/oblivicons" rel="noreferrer" target="_blank"></a><a href="http://blog.kow.fm/oblivicons/">...Read More.</a></p>
+			<p>I'm writing a book, Swift Foundations. It's a beginners book for learning to make iOS apps using Swift. It's going to be pretty rad. <a href="http://blog.kow.fm/interviews-for-the-book/">Read More...</a></p>
 
 			<!--<h2>Latest Blog Post</h2>
 
